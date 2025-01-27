@@ -1,0 +1,34 @@
+[
+    {
+        "messageType": "Image",
+        "startDatetime": "2021-02-02T06:02:00.000Z",
+        "endDatetime": "2021-02-02T06:07:00.000Z",
+        "updatedBy": 2,
+        "createdBy": 2,
+        "createdAt": "2021-02-03T09:22:17.988Z",
+        "updatedAt": "2021-02-03T09:22:17.988Z",
+        "enterprise": {
+            "enterprise_id": 19,
+            "enterprise_name": "Cincinnati Zoo",
+            "short_name": "Cincinnati Zoo"
+        },
+        "message_title": "Test",
+        "beaconPromotion": true,
+        "beaconName": "TCZ",
+        "beaconType": "Wearable",
+        "address": "hub",
+        "beacon_id": "00:A0:50:E6:C5:E8",
+        "message_description": "Beacon Testing",
+        "facilityId": {
+            "_id": 4819,
+            "facilityName": "Crested coua"
+        },
+        "geoCoordinates": [
+            "[\"+39.1458962235251\",\"-84.5055913925170\"]"
+        ],
+        "displayDuration": 10,
+        "cooloff": 20,
+        "isEnabled": true,
+        "facilityImageFileName": ""
+    }
+]

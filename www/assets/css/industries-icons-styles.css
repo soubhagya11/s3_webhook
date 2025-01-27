@@ -1,0 +1,171 @@
+@font-face {
+  font-family: 'industries-icons';
+  src:  url('../fonts/industries-icons.eot?fonq49');
+  src:  url('../fonts/industries-icons.eot?fonq49#iefix') format('embedded-opentype'),
+    url('../fonts/industries-icons.ttf?fonq49') format('truetype'),
+    url('../fonts/industries-icons.woff?fonq49') format('woff'),
+    url('../fonts/industries-icons.svg?fonq49#industries-icons') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icons-"], [class*=" icons-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'industries-icons' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  padding-right: 5px;
+    font-size: 20px;
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icons-airports:before {
+  content: "\e900";
+}
+.icons-aquariums:before {
+  content: "\e901";
+}
+.icons-convention-centers:before {
+  content: "\e902";
+}
+.icons-education:before {
+  content: "\e903";
+}
+.icons-medical-facilities:before {
+  content: "\e904";
+}
+.icons-museums:before {
+  content: "\e905";
+}
+.icons-office-spaces:before {
+  content: "\e906";
+}
+.icons-parking-lots:before {
+  content: "\e907";
+}
+.icons-public-parks:before {
+  content: "\e908";
+}
+.icons-railwaystations:before {
+  content: "\e909";
+}
+.icons-resorts:before {
+  content: "\e90a";
+}
+.icons-shopping-malls:before {
+  content: "\e90b";
+}
+.icons-theme-parks:before {
+  content: "\e90c";
+}
+.icons-warehouses:before {
+  content: "\e90d";
+}
+.icons-zoo:before {
+  content: "\e90e";
+}
+.icons-sliding:before {
+  content: "\e90f";
+}
+.icons-temples:before {
+  content: "\e910";
+}
+.icons-temple:before {
+  content: "\e91f";
+}
+.icons-exhibitors:before {
+  content: "\e911";
+}
+.icons-dining:before {
+  content: "\e912";
+}
+.icons-pharmacy:before {
+  content: "\e913";
+}
+.icons-bank:before {
+  content: "\e915";
+}
+.icons-attraction:before {
+  content: "\e916";
+}
+.icons-attraction-flag:before {
+  content: "\e917";
+}
+.icons-admin:before {
+  content: "\e918";
+}
+.icons-busstop:before {
+  content: "\e919";
+}
+.icons-complex:before {
+  content: "\e91a";
+}
+.icons-fuctionhall:before {
+  content: "\e91b";
+}
+.icons-guesthouse:before {
+  content: "\e91c";
+}
+.icons-guesthouses:before {
+  content: "\e91d";
+}
+.icons-parks:before {
+  content: "\e91e";
+}
+.icons-intensive-care:before {
+  content: "\e920";
+}
+.icons-materinity-care:before {
+  content: "\e921";
+}
+.icons-nephrology:before {
+  content: "\e922";
+}
+.icons-pediatrics:before {
+  content: "\e923";
+}
+.icons-pulmonology:before {
+  content: "\e924";
+}
+.icons-surgical-service:before {
+  content: "\e925";
+}
+.icons-administrative-offices:before {
+  content: "\e926";
+}
+.icons-ambulatory-care:before {
+  content: "\e927";
+}
+.icons-behavioral-health:before {
+  content: "\e928";
+}
+.icons-cardiology-care:before {
+  content: "\e929";
+}
+.icons-digestive-health-center:before {
+  content: "\e92a";
+}
+.icons-emergency:before {
+  content: "\e92b";
+}
+.icons-gastroenterology:before {
+  content: "\e92c";
+}
+.icons-health-sciences:before {
+  content: "\e92d";
+}
+.icons-information-services:before {
+  content: "\e92e";
+}
+.icons-womens-health-care:before {
+  content: "\e92f";
+}
+.icons-clinical-consultants:before {
+  content: "\e930";
+}

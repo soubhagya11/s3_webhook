@@ -1,0 +1,237 @@
+[
+   {
+      "_id": 0,
+      "onboard_image_path": "assets/map/pigeonmap/assets/enterprises/113/OnboardScreens/capture.png",
+      "onboard_image_name": "",
+      "is_enabled": true,
+      "is_deleted": false,
+      "enterprise": {
+         "enterprise_id": 13,
+         "enterprise_name": "Fossil Rim",
+         "short_name": "Fossil Rim"
+      },
+      "display_sequence": 1,
+      "header": {
+         "en": "START SPOTLIGHT",
+         "sp": "Guía rápida de la aplicación"
+      },
+      "paragraph": [
+         {
+            "start_text": {
+               "en": "Use",
+               "sp": "Úselo"
+            },
+            "icon": "fas fa-paw",
+            "color": "color: green;",
+            "end_text": {
+               "en": "to start a new spotlight",
+               "sp": "para iniciar un nuevo foco de atención"
+            }
+         },
+         {
+            "start_text": {
+               "en": "Use",
+               "sp": "Úselo"
+            },
+            "icon": "fas fa-camera", 
+            "color":  "color: coral; font-size: 22px; margin-bottom: -3px;",
+            "end_text": {
+               "en": "to switch cameras",
+               "sp": "para cambiar de cámara"
+            }
+         }
+      ],
+      "created_by": 2,
+      "updated_by": 2,
+      "createdAt": {
+         "$date": "2021-03-27T06:33:51.982Z"
+      },
+      "updatedAt": {
+         "$date": "2021-03-27T06:33:51.982Z"
+      },
+      "__v": 0
+   },
+   {
+      "_id": 1,
+      "onboard_image_path": "assets/map/pigeonmap/assets/enterprises/113/OnboardScreens/capture2.jpg",
+      "onboard_image_name": "",
+      "is_enabled": true,
+      "is_deleted": false,
+      "enterprise": {
+         "enterprise_id": 13,
+         "enterprise_name": "Fossil Rim",
+         "short_name": "Fossil Rim"
+      },
+      "display_sequence": 2,
+      "header": {
+         "en": "SPOTLIGHT ANIMAL",
+         "sp": "ANIMAL DESTACADO"
+      },
+      "paragraph": [
+         {
+            "start_text": {
+               "en": "Use",
+               "sp": "Úselo"
+            },
+            "icon": "fas fa-paw",
+            "color": "color: red;",
+            "end_text": {
+               "en": "to spotlight an animal",
+               "sp": "Úselo para destacar a un animal"
+            }
+         }
+      ],
+      "created_by": 2,
+      "updated_by": 2,
+      "createdAt": {
+         "$date": "2021-03-27T06:33:51.982Z"
+      },
+      "updatedAt": {
+         "$date": "2021-03-27T06:33:51.982Z"
+      },
+      "__v": 0
+   },
+   {
+      "_id": 2,
+      "onboard_image_path": "assets/map/pigeonmap/assets/enterprises/113/OnboardScreens/capture3.jpg",
+      "onboard_image_name": "",
+      "is_enabled": true,
+      "is_deleted": false,
+      "enterprise": {
+         "enterprise_id": 13,
+         "enterprise_name": "Fossil Rim",
+         "short_name": "Fossil Rim"
+      },
+      "display_sequence": 3,
+      "header": {
+         "en": "ADJUST SPOTLIGHT",
+         "sp": "AJUSTE EL FOCO"
+      },
+      "paragraph": [
+         {
+            "start_text": {
+               "en": "Use",
+               "sp": "Úselo"
+            },
+            "icon": "fas fa-plus-circle",
+            "icon_2": "fas fa-minus-circle",
+            "color": "color: coral;",
+            "end_text": {
+               "en": "to Zoom in and Zoom out",
+               "sp": "Para usar Acercar y Alejar"
+            }
+         },
+         {
+            "start_text": {
+               "en": "Use crop area to focus on the animal",
+               "sp": "Úselo Área de cultivo para enfocar al animal"
+            },
+           
+            "end_text": {
+               "en": "",
+               "sp": ""
+            }
+         }
+      ],
+      "created_by": 2,
+      "updated_by": 2,
+      "createdAt": {
+         "$date": "2021-03-27T06:33:51.982Z"
+      },
+      "updatedAt": {
+         "$date": "2021-03-27T06:33:51.982Z"
+      },
+      "__v": 0
+   },
+   {
+      "_id": 3,
+      "onboard_image_path": "assets/map/pigeonmap/assets/enterprises/113/OnboardScreens/capture3.jpg",
+      "onboard_image_name": "",
+      "is_enabled": true,
+      "is_deleted": false,
+      "enterprise": {
+         "enterprise_id": 13,
+         "enterprise_name": "Fossil Rim",
+         "short_name": "Fossil Rim"
+      },
+      "display_sequence": 4,
+      "header": {
+         "en": "LEARN",
+         "sp": "APRENDER"
+      },
+      "paragraph": [
+         {
+            "start_text": {
+               "en": "Click on a suggested animal to learn more",
+               "sp": "Haga clic en un animal sugerido para obtener más información sobre su"
+            },
+           
+            "end_text": {
+               "en": "",
+               "sp": ""
+            }
+         },
+         {
+            "start_text": {
+               "en": "Use",
+               "sp": "uso"
+            },
+            "icon": "fas fa-paw",
+            "color": "color: green;",
+            "end_text": {
+               "en": "to start a new spotlight",
+               "sp": "para comenzar un nuevo foco de atención"
+            }
+         }
+      ],
+      "created_by": 2,
+      "updated_by": 2,
+      "createdAt": {
+         "$date": "2021-03-27T06:33:51.982Z"
+      },
+      "updatedAt": {
+         "$date": "2021-03-27T06:33:51.982Z"
+      },
+      "__v": 0
+   },
+   {
+      "_id": 4,
+      "onboard_image_path": "assets/map/pigeonmap/assets/enterprises/113/OnboardScreens/capture3.jpg",
+      "onboard_image_name": "",
+      "is_enabled": true,
+      "is_deleted": false,
+      "enterprise": {
+         "enterprise_id": 13,
+         "enterprise_name": "Fossil Rim",
+         "short_name": "Fossil Rim"
+      },
+      "display_sequence": 5,
+      "header": {
+         "en": "EXPLORE",
+         "sp": "EXPLORAR"
+      },
+      "paragraph": [
+         {
+            "start_text": {
+               "en": "",
+               "sp": ""
+            },
+            "icon": "",
+            "color": "",
+            "end_text": {
+               "en": "",
+               "sp": ""
+            }
+         }
+      ],
+      "created_by": 2,
+      "updated_by": 2,
+      "createdAt": {
+         "$date": "2021-03-27T06:33:51.982Z"
+      },
+      "updatedAt": {
+         "$date": "2021-03-27T06:33:51.982Z"
+      },
+      "__v": 0
+   }
+]

@@ -1,0 +1,3329 @@
+html * {
+  -webkit-font-smoothing: antialiased !important;
+  -moz-osx-font-smoothing: grayscale !important;
+}
+body {
+  font-family: var(--ion-font-family), 'Open Sans', Helvetica, Arial, sans-serif !important;
+  font-weight: 400;
+  // line-height: 1.1em;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1,
+.h2,
+.h3,
+.h4 {
+  font-weight: bold !important;
+}
+h1,
+.h1 {
+  // font-size: $font-size-h1;
+}
+h2,
+.h2 {
+  // font-size: $font-size-h2;
+}
+h3,
+.h3 {
+  // font-size: $font-size-h3;
+  margin: 20px 0 10px;
+}
+h4,
+.h4 {
+  // font-size: $font-size-h4;
+  font-weight: 400;
+}
+h5,
+.h5 {
+  // font-size: $font-size-h5;
+  margin-bottom: 15px;
+}
+h6,
+.h6 {
+  // font-size: $font-size-h6;
+  text-transform: uppercase;
+  font-weight: $font-weight-bold;
+}
+.title,
+.card-title,
+.info-title,
+.footer-brand,
+.footer-big h5,
+.footer-big h4,
+.media .media-heading {
+  //font-weight: $font-weight-extra-bold;
+  // font-family: $font-family-serif;
+  &,
+  a {
+    color: $black-color;
+    text-decoration: none;
+  }
+}
+.card-blog .card-title {
+  font-weight: $font-weight-extra-bold;
+}
+h2.title {
+  margin-bottom: $margin-base * 2;
+}
+.description,
+.card-description,
+.footer-big p {
+  color: $gray-light;
+}
+.text-warning {
+  color: $brand-warning !important;
+}
+.text-primary {
+  color: $brand-primary !important;
+}
+.text-danger {
+  color: $brand-danger !important;
+}
+.text-success {
+  color: $brand-success !important;
+}
+.text-info {
+  color: $brand-info !important;
+}
+.text-rose {
+  color: $brand-rose !important;
+}
+.text-gray {
+  color: $gray-color !important;
+}
+.text-red-light {
+  color: $red-light !important;
+}
+.text-blue-light {
+  color: $blue-light !important;
+}
+.text-green-light {
+  color: $green-light !important;
+}
+.text-orange-light {
+  color: $orange-light-a800 !important;
+}
+.text-orange {
+  color: $orange-a800 !important;
+}
+.text-pink-dark {
+  color: $pink-dark !important;
+}
+.text-purple {
+  color: $purple-a700 !important;
+}
+.text-purple-dark {
+  color: $purple-900 !important;
+}
+.text-green-dark {
+  color: $green-dark !important;
+}
+.text-turquoise-dark {
+  color: $turquoise-dark !important;
+}
+.text-green {
+  color: $green !important;
+}
+.text-blue-dark {
+  color: $blue-dark !important;
+}
+.copyright {
+  // font-size: 0.75rem;
+}
+/* Body Font Size */
+body {
+  font-size: var(--body-font-size);
+  --bs-body-font-size: var(--body-font-size);
+}
+.value-button {
+  font-size: var(--body-font-size);
+  .change-value-txt {
+    font-size: 100%;
+  }
+}
+.timer-wrapper {
+  font-size: var(--body-font-size);
+  .time-info {
+    font-size: 140%;
+  }
+  .smalltext {
+    font-size: 100%;
+  }
+}
+.enterprise-main-title {
+  font-size: var(--body-font-size);
+  h1 {
+    font-size: 200%;
+  }
+}
+.ifit-board {
+  font-size: var(--body-font-size);
+  ion-icon {
+    font-size: 250%;
+  }
+}
+.assets-circle-grid-list {
+  font-size: var(--body-font-size);
+  .gridlist-item {
+    font-size: var(--body-font-size);
+    .asset-img-circle {
+      font-size: var(--body-font-size);
+      .circle-icon {
+        font-size: var(--body-font-size);
+        i {
+          font-size: var(--body-font-size);
+          &::before {
+            font-size: 200%;
+          }
+        }
+      }
+    }
+  }
+}
+/* Home Grid Page*/
+.homegrid-page {
+  font-size: var(--body-font-size);
+  h3,
+  h5 {
+    font-size: 148%;
+  }
+}
+.fossilrim {
+  font-size: var(--body-font-size);
+  .has-dropcap::first-letter {
+    font-size: 140%;
+  }
+}
+.driverules-content {
+  font-size: var(--body-font-size);
+  .has-dropcap::first-letter {
+    font-size: 140%;
+  }
+}
+.coupons-wrapper {
+  font-size: var(--body-font-size);
+  .coupons-validation-txt {
+    font-size: 110%;
+  }
+}
+.asset-detail {
+  font-size: var(--body-font-size);
+  .asset-detail-info {
+    font-size: var(--body-font-size);
+    p {
+      font-size: 120%;
+    }
+  }
+}
+.asset-detail-info {
+  font-size: var(--body-font-size);
+  ion-card-content {
+    font-size: var(--body-font-size);
+    p {
+      font-size: 120%;
+    }
+  }
+}
+.treasurehunt-play-info {
+  font-size: var(--body-font-size);
+  p {
+    font-size: 120%;
+  }
+}
+.asset-detail-info.treasurehunt-play-content-info {
+  font-size: var(--body-font-size);
+  p {
+    font-size: 120%;
+  }
+}
+.treasurehunt-play-info {
+  font-size: var(--body-font-size);
+  p {
+    font-size: 120%;
+  }
+}
+.asset-detail-info.treasurehunt-play-content-info {
+  font-size: var(--body-font-size);
+  p {
+    font-size: 120%;
+  }
+}
+.facedetectiondetails {
+  font-size: var(--body-font-size);
+  .follow-btn {
+    font-size: var(--body-font-size);
+  }
+  h2 {
+    font-size: 130%;
+  }
+}
+.fixed-center-fab {
+  font-size: var(--body-font-size);
+  .fs-50 {
+    font-size: 360%;
+  }
+}
+/* Play BOard*/
+.dashboard-page {
+  font-size: var(--body-font-size);
+  .change-event-item {
+    font-size: 120%;
+  }
+  .card-header {
+    .card-icon {
+      i {
+        font-size: 180%;
+      }
+    }
+  }
+}
+.info-txt-wrapper {
+  font-size: var(--body-font-size);
+  .info-title-txt {
+    font-size: 140%;
+  }
+}
+.fab-list-btns {
+  i {
+    font-size: 150%;
+  }
+}
+/* Header Profile Menu Font Size (Top Right)*/
+.user-info-content,
+.header-useractions-block {
+  font-size: var(--header-profile-menu-font-size);
+  .user-info {
+    .dropdown-menu {
+      .enterprise-listscroll {
+        .dropdown-item {
+          font-size: var(--header-profile-menu-font-size);
+          font-family: var(--header-font-family);
+        }
+      }
+    }
+  }
+  .btn-missedcalls {
+    font-size: var(--header-title-font-size);
+    i {
+      font-size: 150%;
+    }
+    .missedcalls {
+      font-size: 60%;
+    }
+  }
+  .mode-langswitch {
+    font-size: var(--header-title-font-size);
+    .modelanguage {
+      font-size: var(--header-title-font-size);
+      i {
+        font-size: 180%;
+      }
+    }
+    .dropdown-menu {
+      font-size: var(--header-title-font-size);
+      .dropdown-item {
+        font-size: var(--header-title-font-size);
+      }
+      p-accordion {
+        font-size: var(--header-title-font-size);
+        p-accordiontab {
+          font-size: var(--header-title-font-size);
+          .p-accordion-content {
+            .dropdown-item {
+              font-size: var(--header-title-font-size);
+            }
+          }
+        }
+      }
+    }
+  }
+  .navbar-nav {
+    font-size: inherit;
+    .nav-link {
+      font-size: inherit;
+    }
+    .dropdown-menu {
+      font-size: inherit;
+      .dropdown-item {
+        --bs-dropdown-font-size: var(--header-profile-menu-font-size);
+        font-size: var(--bs-dropdown-font-size);
+        font-family: var(--header-font-family);
+        &i {
+          font-size: 110%;
+        }
+        .login-user-fullname {
+          --bs-dropdown-font-size: var(--header-profile-menu-font-size);
+          font-size: var(--bs-dropdown-font-size);
+        }
+      }
+    }
+  }
+  .multiple-profiles-list {
+    font-size: var(--header-profile-menu-font-size);
+    .multiple-profiles-title {
+      font-size: var(--header-profile-menu-font-size);
+    }
+    .multiple-profiles-list-item {
+      font-size: var(--header-profile-menu-font-size);
+      .multiple-profiles {
+        font-size: var(--header-profile-menu-font-size);
+        ion-avatar {
+          font-size: var(--header-profile-menu-font-size);
+          .initials {
+            font-size: 80%;
+          }
+        }
+        ion-label {
+          font-size: var(--header-profile-menu-font-size) !important;
+          p {
+            font-size: var(--header-profile-menu-font-size) !important;
+          }
+        }
+        .profile-title {
+          --bs-dropdown-font-size: var(--header-profile-menu-font-size);
+          font-size: var(--bs-dropdown-font-size);
+        }
+      }
+    }
+  }
+  .user-info-wrapper {
+    .nav-item {
+      font-size: var(--header-profile-menu-font-size);
+      span {
+        font-size: var(--header-profile-menu-font-size);
+        font-family: var(--header-font-family);
+        i {
+          font-size: var(--header-profile-menu-font-size);
+        }
+      }
+      .btn-missedcalls {
+        font-size: var(--header-profile-menu-font-size);
+        .missedcalls {
+          font-size: 70%;
+        }
+      }
+    }
+  }
+}
+.date-info {
+  font-size: var(--body-font-size);
+  .date-label {
+    font-size: 120%;
+  }
+  .btn-let,
+  .btn-right {
+    font-size: 160%;
+  }
+}
+.card-slider-item-wrapper {
+  font-size: var(--body-font-size);
+  .event-card-info {
+    font-size: var(--body-font-size);
+    .event-card-date {
+      font-size: 130%;
+    }
+  }
+  .event-card-img {
+    font-size: var(--body-font-size);
+    .initials {
+      font-size: 200%;
+    }
+  }
+}
+.event-card-sub-title {
+  font-size: var(--section-title-font-size);
+  h4.main-title {
+    font-size: var(--section-title-font-size);
+  }
+  .btn-viewall {
+    font-size: 80%;
+  }
+}
+.event-card-content {
+  font-size: var(--body-font-size);
+  .event-card-title {
+    font-size: 148%;
+  }
+  .event-card-text {
+    font-size: 120%;
+  }
+}
+.navbar-wrapper {
+  font-size: var(--header-title-font-size);
+  .header-pagetitle-block {
+    font-size: var(--header-title-font-size);
+    i {
+      font-size: 180%;
+    }
+    .pagetitle-wrapper {
+      span {
+        font-size: var(--header-title-font-size);
+      }
+    }
+  }
+  .hamburger-menu {
+    font-size: 180%;
+  }
+  .header-useractions-block {
+    .mode-langswitch {
+      .modelanguage {
+        i {
+          font-size: 150%;
+        }
+      }
+      .dropdown-menu {
+        p-accordion {
+          p-accordiontab {
+            font-size: var(--header-title-font-size);
+            .p-accordion-content {
+              .dropdown-item {
+                font-size: var(--header-title-font-size);
+              }
+            }
+          }
+        }
+      }
+    }
+    .mobile-profile-menu {
+      font-size: var(--header-profile-menu-font-size);
+      .user-info {
+        font-size: var(--header-profile-menu-font-size);
+        .login-user-fullname {
+          --bs-dropdown-font-size: var(--header-profile-menu-font-size);
+          font-size: var(--bs-dropdown-font-size);
+          font-family: var(--header-font-family);
+          a.dropdown-item,
+          p {
+            font-family: var(--header-font-family);
+          }
+        }
+        .profiledropdown-menu {
+          .dropdown-item {
+            font-size: var(--header-profile-menu-font-size);
+            font-family: var(--header-font-family);
+            i {
+              font-size: var(--header-profile-menu-font-size);
+            }
+          }
+        }
+      }
+    }
+  }
+}
+/* Top Menu Font Size */
+.top-menu {
+  font-size: var(--topmenu-font-size);
+  .nav {
+    .nav-item {
+      font-size: inherit;
+      .nav-link {
+        font-size: inherit;
+        font-family: var(--topmenu-font-family) !important;
+      }
+      .dropdown-menu {
+        font-size: inherit;
+        .topmenu-dropdown-listscroll {
+          .nav-item {
+            .nav-link {
+              font-size: inherit;
+            }
+          }
+        }
+        .mega-content {
+          font-size: inherit;
+          .mega-menu-wrapper {
+            font-size: inherit;
+            .list-items {
+              font-size: inherit;
+              .megamenu-title {
+                font-size: inherit;
+                font-family: var(--topmenu-font-family) !important;
+              }
+              .submenu-list {
+                font-size: inherit;
+                .submenu-list-item {
+                  font-size: inherit;
+                  .submenu-list-item-link {
+                    font-size: inherit;
+                    font-family: var(--topmenu-font-family) !important;
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+/* Sidebar Menu Font Size */
+.sidebar {
+  font-size: var(--sidemenu-font-size);
+  .btn-menu-expand-all,
+  .btn-sidebar-expand {
+    --bs-btn-font-size: var(--block-title-font-size);
+    font-size: var(--bs-btn-font-size);
+    font-family: var(--side-bar-font-family) !important;
+  }
+  .nav {
+    font-size: var(--sidemenu-font-size);
+    .nav-item {
+      font-size: var(--sidemenu-font-size);
+      .nav-link {
+        font-size: var(--sidemenu-font-size);
+        font-family: var(--side-bar-font-family) !important;
+        &i {
+          font-size: var(--sidemenu-font-size);
+        }
+      }
+      .submenu-list {
+        font-size: var(--sidemenu-font-size);
+        .nav {
+          font-size: var(--sidemenu-font-size);
+          .nav-item {
+            font-size: var(--sidemenu-font-size);
+            .nav-link {
+              font-size: var(--sidemenu-font-size);
+              &i {
+                font-size: var(--sidemenu-font-size);
+              }
+            }
+          }
+        }
+      }
+    }
+    .modes-languages-wrapper {
+      p-accordion {
+        p-accordiontab {
+          .p-accordion-header {
+            .p-accordion-header-link {
+              .accordion-header {
+                font-size: var(--sidemenu-font-size);
+              }
+            }
+          }
+          .p-toggleable-content {
+            .p-accordion-content {
+              .dropdown-item {
+                font-size: var(--sidemenu-font-size);
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  .sidebar-wrapper {
+    font-size: var(--sidemenu-font-size);
+    .mobilemenu {
+      font-size: var(--sidemenu-font-size);
+      .nav {
+        font-size: var(--sidemenu-font-size);
+        .nav-item {
+          font-size: var(--sidemenu-font-size);
+          .nav-link {
+            font-size: var(--sidemenu-font-size);
+            & i {
+              font-size: 100%;
+            }
+          }
+          .submenu-list {
+            font-size: var(--sidemenu-font-size);
+            .nav {
+              font-size: var(--sidemenu-font-size);
+              .nav-item {
+                font-size: var(--sidemenu-font-size);
+                .nav-link {
+                  font-size: var(--sidemenu-font-size);
+                  &i {
+                    font-size: 100%;
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  .copyright {
+    font-size: 70%;
+  }
+}
+/* Footer Font Size */
+.footer {
+  font-size: var(--footer-font-size);
+  font-family: var(--footer-font-family);
+}
+.footer-tabs {
+  font-size: var(--body-font-size);
+  ion-tab-button {
+    font-size: var(--footer-font-size);
+    i {
+      font-size: 200%;
+    }
+    ion-icon {
+      font-size: 200%;
+    }
+    .menu-label {
+      font-size: 100%;
+    }
+  }
+}
+.footerpos {
+  font-size: var(--footer-font-size);
+  .hamburger-menu {
+    font-size: 160%;
+  }
+}
+ion-footer {
+  .scrollmenu {
+    .objecticon {
+      ion-icon,
+      i {
+        font-size: 250%;
+      }
+      i.footer-labels-enable {
+        font-size: 200%;
+      }
+      .menu-label {
+        font-size: 100%;
+      }
+    }
+    .hamburger-menu {
+      font-size: 250%;
+    }
+    .curvedfootericon {
+      ion-icon,
+      i {
+        font-size: 250%;
+      }
+    }
+  }
+}
+/* Post Page Font Size*/
+.socialhome {
+  font-size: var(--body-font-size);
+  button {
+    font-size: 110%;
+    ion-icon {
+      font-size: inherit;
+    }
+  }
+}
+/* Tables, Listing, Grid Font Size */
+.ptable {
+  font-size: var(--body-font-size);
+  .p-datatable-thead {
+    th {
+      font-size: 110%;
+    }
+  }
+  .p-datatable-tbody {
+    td {
+      font-size: inherit;
+      .actions-btn-group {
+        .btn-link {
+          i {
+            font-size: 110%;
+          }
+          i.icon-inactive-switch,
+          i.icon-active-switch,
+          i.icomoon {
+            font-size: 150%;
+          }
+        }
+      }
+    }
+  }
+}
+.gridview-list-wrapper {
+  font-size: var(--body-font-size);
+  .asset-img-circle {
+    font-size: var(--body-font-size);
+    .image-tap {
+      font-size: var(--body-font-size);
+      .circle-icon {
+        font-size: var(--body-font-size);
+        .initials-bg {
+          font-size: var(--body-font-size);
+          .initials {
+            font-size: 250%;
+            i {
+              font-size: 120%;
+            }
+          }
+        }
+      }
+    }
+  }
+  .gridview-title {
+    font-size: 105%;
+    font-family: var(--grid-font-family) !important;
+  }
+  .separator-title {
+    font-size: 132%;
+    font-family: var(--grid-font-family) !important;
+  }
+  .more-icon {
+    font-size: inherit;
+    span {
+      font-size: inherit;
+    }
+  }
+  .btn-loadmore {
+    font-size: 120%;
+    font-family: var(--button-font-family);
+    i {
+      font-size: 100%;
+    }
+  }
+}
+.gridlist-item {
+  font-size: var(--body-font-size);
+  .facility-types-title {
+    font-size: inherit;
+  }
+  .facility-title {
+    font-size: inherit;
+  }
+  .asset-img-circle {
+    font-size: inherit;
+    .circle-icon {
+      ion-icon::before {
+        font-size: 180%;
+      }
+    }
+    .circle-icon.facilitytypes-icon {
+      font-size: inherit;
+      ion-icon::before {
+        font-size: 180%;
+      }
+    }
+  }
+}
+.mobile-list-view {
+  font-size: var(--body-font-size);
+  ion-item {
+    font-size: var(--body-font-size);
+    ion-label {
+      font-size: var(--body-font-size);
+      .fs-13 {
+        font-size: 120%;
+        font-family: var(--list-font-family);
+      }
+      .fs-11 {
+        font-size: 100%;
+        font-family: var(--list-font-family);
+      }
+    }
+    .more-icon {
+      span {
+        font-size: 160%;
+      }
+    }
+  }
+  .separator-title {
+    font-size: 132%;
+    font-family: var(--grid-font-family) !important;
+  }
+}
+.actionsheet {
+  font-size: var(--body-font-size);
+  .action-sheet-wrapper {
+    font-size: inherit;
+    .action-sheet-container {
+      font-size: inherit;
+      .action-sheet-group {
+        font-size: inherit;
+        .action-sheet-button {
+          font-size: var(--body-font-size);
+        }
+      }
+    }
+  }
+}
+h3,
+.h3 {
+  font-size: var(--body-font-size);
+}
+ion-label {
+  font-size: var(--body-font-size);
+  h3,
+  .h3 {
+    font-size: 100%;
+  }
+  .fs-11 {
+    font-size: 90%;
+  }
+}
+/* Tinder Cards Font Size */
+.tinder-cards {
+  font-size: var(--body-font-size);
+  .displayinfotext-animation {
+    font-size: 120%;
+    i {
+      font-size: 140%;
+    }
+  }
+  .team-player-display-name {
+    font-size: 120%;
+  }
+  .teamcheer-title-count {
+    font-size: 180%;
+  }
+}
+/* Page Title Font Size */
+.card [class*=card-header-] {
+  font-size: var(--block-title-font-size);
+  .card-title {
+    font-size: var(--block-title-font-size);
+  }
+}
+.card[class*=bg-] .card-title {
+  font-size: var(--block-title-font-size);
+  .card-title {
+    font-size: var(--block-title-font-size);
+  }
+}
+.card-header.card-header-primary {
+  i {
+    font-size: var(--block-title-font-size);
+  }
+  ion-icon {
+    font-size: var(--block-title-font-size);
+  }
+}
+.subpage-header-title {
+  font-size: var(--block-title-font-size);
+}
+app-pageheader {
+  font-size: var(--block-title-font-size);
+  h4.subpage-title {
+    font-size: inherit;
+    font-family: var(--page-title-font-family);
+  }
+}
+.action-list {
+  font-size: var(--block-title-font-size);
+  .mat-mdc-button.btn.btn-sm,
+  .btn-group-sm .mat-mdc-button.btn,
+  .mat-mdc-raised-button.btn.btn-sm,
+  .btn-group-sm .mat-mdc-raised-button.btn,
+  .mat-mdc-raised-button.btn:not([class*=mat-elevation-z]).btn-sm,
+  .btn-group-sm .mat-mdc-raised-button.btn:not([class*=mat-elevation-z]),
+  .btn.btn-sm,
+  .btn-group-sm .btn,
+  ion-button,
+  button,
+  .btn {
+    --bs-btn-font-size: 90%;
+    font-size: var(--bs-btn-font-size);
+    i {
+      font-size: inherit;
+    }
+  }
+}
+.btn-stats-filters {
+  font-size: var(--body-font-size);
+  .mat-mdc-raised-button.btn:not([class*=mat-elevation-z]).btn-just-icon.btn-sm.btn-circle,
+  .btn.btn-just-icon.btn-sm.btn-circle {
+    --bs-btn-font-size: 120%;
+    font-size: var(--bs-btn-font-size);
+    i {
+      font-size: 180%;
+    }
+  }
+}
+/* TODO(mdc-migration): The following rule targets internal classes of menu that may no longer apply for the MDC version.*/
+/* TODO(mdc-migration): The following rule targets internal classes of menu that may no longer apply for the MDC version.*/
+.btn-mat-menu {
+  font-size: var(--body-font-size);
+  .mat-mdc-raised-button.btn:not([class*=mat-elevation-z]).btn-just-icon.btn-sm.btn-tab-circle,
+  .btn.btn-just-icon.btn-sm.btn-tab-circle {
+    --bs-btn-font-size: 140%;
+    font-size: var(--bs-btn-font-size);
+  }
+}
+.search-contacts {
+  font-size: var(--block-title-font-size);
+  .subpagetitle-ellipsis {
+    font-size: var(--block-title-font-size);
+    i {
+      font-size: 90%;
+    }
+  }
+  .search-action-list {
+    font-size: var(--block-title-font-size);
+    .chat-count {
+      font-size: 45%;
+    }
+    i {
+      font-size: 90%;
+    }
+  }
+}
+.taggedusers-headertitle {
+  font-size: var(--block-title-font-size);
+  i {
+    font-size: 90%;
+  }
+}
+.card-header-primary {
+  .btn-link {
+    i {
+      --bs-btn-font-size: var(--block-title-font-size);
+      font-size: var(--bs-btn-font-size);
+    }
+  }
+  .mat-mdc-menu-trigger {
+    i {
+      font-size: var(--block-title-font-size);
+    }
+  }
+}
+.mat-mdc-menu-content a.btn,
+.mat-mdc-menu-content a.btn:not([href]):not([tabindex]) {
+  --bs-btn-font-size: inherit;
+  font-size: var(--bs-btn-font-size);
+  i {
+    font-size: 100%;
+  }
+}
+.block-title {
+  font-size: var(--section-title-font-size);
+}
+.btn-view-all {
+  font-size: var(--body-font-size);
+}
+.events-block {
+  font-size: var(--body-font-size);
+  .events-block-content-wrapper {
+    font-size: inherit;
+    .event-info-wrapper {
+      font-size: inherit;
+      a.enable {
+        font-size: inherit;
+      }
+      p {
+        font-size: inherit;
+      }
+      .events-list-title {
+        font-size: 130%;
+      }
+      .events-date-info {
+        font-size: 100%;
+      }
+    }
+    .events-block-content {
+      .initials {
+        font-size: 120%;
+      }
+    }
+  }
+}
+.social-links-wrapper {
+  font-size: var(--body-font-size);
+  .social-links-list-content {
+    font-size: var(--body-font-size);
+    ul {
+      font-size: var(--body-font-size);
+      li {
+        font-size: var(--body-font-size);
+        i {
+          font-size: var(--section-title-font-size);
+        }
+      }
+    }
+  }
+}
+.fab-textarea {
+  i {
+    font-size: var(--section-title-font-size);
+  }
+}
+.social-media-block-wrapper {
+  font-size: var(--body-font-size);
+  .box-title-wrapper {
+    font-size: var(--body-font-size);
+    .box-title {
+      font-size: var(--topmenu-font-size);
+    }
+  }
+}
+.app-links-block {
+  font-size: var(--body-font-size);
+  .contact-block {
+    font-size: var(--body-font-size);
+    .contact-title {
+      font-size: 160%;
+    }
+    p {
+      font-size: var(--topmenu-font-size);
+    }
+  }
+}
+.mdc-form-field {
+  --mdc-typography-body2-font-size: var(--body-font-size);
+  font-size: var(--mdc-typography-body2-font-size);
+}
+/* Accordion Block Font Size */
+p-accordion {
+  font-size: var(--accordion-title-font-size);
+  p-accordiontab {
+    font-size: var(--accordion-title-font-size);
+    .p-accordion-header {
+      .p-accordion-header-link {
+        .p-accordion-toggle-icon {
+          font-size: var(--accordion-title-font-size);
+        }
+        .accordion-header,
+        p-header {
+          font-size: var(--accordion-title-font-size);
+          font-family: var(--accordion-font-family) !important;
+          .mdc-form-field,
+          .mat-mdc-checkbox-disabled label {
+            font-size: var(--accordion-title-font-size);
+            font-family: var(--accordion-font-family) !important;
+          }
+          .mat-mdc-form-field {
+            font-size: 70%;
+          }
+        }
+      }
+    }
+    .p-toggleable-content {
+      font-size: var(--body-font-size);
+      ion-item {
+        font-size: var(--body-font-size);
+        ion-label {
+          font-size: var(--body-font-size);
+        }
+      }
+    }
+  }
+  .form-bs {
+    font-size: var(--body-font-size);
+    .mat-mdc-form-field-infix {
+      font-size: inherit;
+    }
+    ion-item {
+      ion-label {
+        font-size: inherit;
+      }
+    }
+    i {
+      font-size: inherit;
+    }
+    i.info-icon {
+      font-size: 130%;
+    }
+    i.audio-info-btn {
+      font-size: 160%;
+    }
+    .delete-icon {
+      font-size: var(--body-font-size);
+      i {
+        font-size: 140%;
+      }
+    }
+    .row-actions {
+      span {
+        font-size: inherit;
+      }
+    }
+    .modal {
+      font-size: var(--body-font-size);
+      .modal-dialog {
+        font-size: var(--body-font-size);
+        .modal-content {
+          font-size: var(--body-font-size);
+          .modal-header {
+            font-size: var(--body-font-size);
+            .modal-title {
+              font-size: var(--header-title-font-size);
+            }
+          }
+        }
+      }
+    }
+    .separator-title {
+      font-size: 118%;
+    }
+  }
+  .mdc-form-field {
+    font-size: var(--body-font-size);
+  }
+  .modal {
+    font-size: var(--body-font-size);
+    .modal-dialog {
+      font-size: var(--body-font-size);
+      .modal-content {
+        font-size: var(--body-font-size);
+        .modal-header {
+          font-size: var(--body-font-size);
+          .modal-title {
+            font-size: var(--header-title-font-size);
+          }
+        }
+      }
+    }
+  }
+  .modal.imageview-modal {
+    font-size: var(--body-font-size);
+    .close {
+      font-size: 130%;
+    }
+  }
+  .error-msg {
+    font-size: inherit;
+  }
+}
+.swal2-no-backdrop .swal2-container.swal2-center.swal2-fade.swal2-shown .swal2-popup .swal2-header .swal2-title {
+  font-size: var(--header-title-font-size);
+}
+.swal2-no-backdrop .swal2-content .swal2-checkbox label,
+.swal2-no-backdrop .swal2-content .swal2-radio label {
+  font-size: var(--body-font-size);
+}
+.detail-accordion-block {
+  font-size: var(--body-font-size);
+  i.fs-22 {
+    font-size: 180%;
+  }
+  ion-card-content,
+  p {
+    font-size: var(--body-font-size);
+  }
+  .header-title-item {
+    font-size: var(--accordion-title-font-size);
+    ion-icon {
+      font-size: 130%;
+    }
+    ion-label {
+      font-size: var(--accordion-title-font-size);
+    }
+    .fs-13 {
+      font-size: inherit;
+    }
+  }
+  .accordion-header-title {
+    font-size: var(--accordion-title-font-size);
+  }
+}
+/* Forms Create, Edit, View*/
+.form-bs {
+  font-size: var(--body-font-size);
+  .field-label {
+    font-size: 120%;
+  }
+  .mat-mdc-form-field-infix {
+    font-size: inherit;
+  }
+  ion-item {
+    ion-label {
+      font-size: inherit;
+    }
+  }
+  i {
+    font-size: inherit;
+  }
+  .row-actions {
+    span {
+      font-size: inherit;
+    }
+  }
+  .modal {
+    font-size: var(--body-font-size);
+    .modal-dialog {
+      font-size: var(--body-font-size);
+      .modal-content {
+        font-size: var(--body-font-size);
+        .modal-header {
+          font-size: var(--body-font-size);
+          .modal-title {
+            font-size: var(--modal-title-font-size);
+          }
+        }
+      }
+    }
+  }
+  .error-msg {
+    font-size: 100%;
+  }
+}
+.f-l-name-thumbnail {
+  font-size: var(--body-font-size);
+  .initials {
+    font-size: 150%;
+  }
+}
+/* Modla Popup Font Size */
+.modal {
+  font-size: var(--body-font-size);
+  .modal-dialog {
+    font-size: var(--body-font-size);
+    .modal-content {
+      font-size: var(--body-font-size);
+      .modal-header {
+        font-size: var(--body-font-size);
+        .modal-title {
+          font-size: var(--modal-title-font-size);
+        }
+        .btn-close-modal {
+          font-size: 180%;
+        }
+      }
+      .close {
+        font-size: 130%;
+      }
+    }
+  }
+}
+.content-details-popup {
+  font-size: var(--body-font-size);
+  .modal-header {
+    font-size: var(--body-font-size);
+    .modal-title {
+      font-size: var(--modal-title-font-size);
+    }
+  }
+}
+.cancelstatuspopup,
+.enterprise-subscription-popup {
+  font-size: var(--body-font-size);
+  .modal-wrapper.ion-overlay-wrapper {
+    font-size: var(--body-font-size);
+    .modal-title {
+      font-size: var(--modal-title-font-size);
+    }
+    button {
+      font-size: var(--body-font-size);
+    }
+  }
+}
+/* Button Font Size  */
+.mat-mdc-button.btn.btn-sm,
+.btn-group-sm .mat-mdc-button.btn,
+.mat-mdc-raised-button.btn.btn-sm,
+.btn-group-sm .mat-mdc-raised-button.btn,
+.mat-mdc-raised-button.btn:not([class*=mat-elevation-z]).btn-sm,
+.btn-group-sm .mat-mdc-raised-button.btn:not([class*=mat-elevation-z]),
+.btn.btn-sm,
+.btn-group-sm .btn,
+ion-button,
+button,
+.btn,
+.introjs-button,
+.btn.btn-lg,
+.mat-mdc-raised-button.btn.btn-lg,
+.mat-mdc-raised-button.btn:not([class*=mat-elevation-z]).btn-lg {
+  --bs-btn-font-size: 120%;
+  font-size: var(--bs-btn-font-size);
+  font-family: var(--button-font-family) !important;
+  .fa {
+    font-size: inherit;
+  }
+  i {
+    font-size: 120%;
+  }
+}
+.locatebutton {
+  --bs-btn-font-size: 120%;
+  font-size: var(--bs-btn-font-size);
+  i {
+    font-size: var(--bs-btn-font-size);
+  }
+}
+.mat-mdc-raised-button.btn.btn-sm.btn-accordion,
+.mat-mdc-raised-button.btn:not([class*=mat-elevation-z]).btn-sm.btn-accordion {
+  --bs-btn-font-size: 100%;
+  font-size: var(--bs-btn-font-size);
+}
+.btn-choose-level {
+  --bs-btn-font-size: 150%;
+  font-size: var(--bs-btn-font-size);
+}
+.actions-btn-group {
+  font-size: var(--body-font-size);
+  /* TODO(mdc-migration): The following rule targets internal classes of checkbox that may no longer apply for the MDC version.*/
+  label.mat-mdc-checkbox-layout {
+    font-size: 120%;
+  }
+  i {
+    font-size: 130%;
+  }
+  i.icon-inactive-switch {
+    font-size: 180%;
+  }
+}
+.btn-less-more {
+  font-size: var(--body-font-size);
+  i {
+    font-size: 140%;
+  }
+}
+.close-sidebar {
+  font-size: var(--body-font-size);
+  i {
+    font-size: 140%;
+  }
+}
+/* Toast Messages */
+.mat-mdc-simple-snack-bar {
+  font-size: var(--body-font-size);
+}
+/* Main Banners Block, Stats Font Size */
+.banner-wrapper {
+  font-size: var(--accordion-title-font-size);
+  .mainblock-title {
+    font-size: var(--accordion-title-font-size);
+  }
+  .mainblock-sub-title {
+    font-size: 100%;
+    font-family: var(--body-top-font-family);
+  }
+}
+.player-view {
+  font-size: var(--accordion-title-font-size);
+  .banner-wrapper {
+    font-size: var(--accordion-title-font-size);
+    .player-image {
+      font-size: var(--body-font-size);
+    }
+    .sport-info {
+      font-size: var(--accordion-title-font-size);
+      .tag {
+        font-size: var(--accordion-title-font-size);
+        h4 {
+          font-size: 114%;
+          font-family: var(--body-top-font-family);
+        }
+        .player-name {
+          font-size: 100%;
+          font-family: var(--body-top-font-family);
+        }
+      }
+    }
+    .player-image {
+      font-size: var(--body-font-size);
+      .initials {
+        font-size: 250%;
+      }
+    }
+  }
+  .team-info-wrapper {
+    font-size: var(--accordion-title-font-size);
+    .tag {
+      font-size: var(--accordion-title-font-size);
+      h4 {
+        font-size: 114%;
+        font-family: var(--body-top-font-family);
+      }
+      .player-name {
+        font-size: 100%;
+        font-family: var(--body-top-font-family);
+      }
+      .address-info {
+        font-size: 100%;
+        font-family: var(--body-top-font-family);
+      }
+    }
+  }
+  .team-avatar-wrapper {
+    font-size: var(--body-font-size);
+    .player-image {
+      font-size: inherit;
+      .initials {
+        font-size: 250%;
+      }
+    }
+    .team-info-wrapper {
+      font-size: var(--accordion-title-font-size);
+      font-family: var(--body-top-font-family);
+      .team-title {
+        font-size: 114%;
+        font-family: var(--body-top-font-family);
+      }
+      .mainblock-title {
+        font-size: 100%;
+        font-family: var(--body-top-font-family);
+      }
+      .playeraction-button {
+        font-size: var(--accordion-title-font-size);
+      }
+    }
+    .event-collab-btn {
+      font-size: var(--accordion-title-font-size);
+    }
+  }
+}
+.cdk-overlay-pane {
+  .assets-view-dropsownlist {
+    font-size: var(--body-font-size);
+    .mat-mdc-menu-content {
+      .btn-link,
+      i {
+        --bs-btn-font-size: 100%;
+        font-size: var(--bs-btn-font-size);
+      }
+    }
+  }
+}
+.teamlineup-slider {
+  font-size: var(--body-font-size);
+  .team-top-player-img {
+    font-size: inherit;
+    .initials {
+      font-size: 130%;
+    }
+  }
+  .player-position {
+    font-size: inherit;
+  }
+  .player-info {
+    font-size: inherit;
+  }
+}
+.team-top-player-content {
+  font-size: var(--body-font-size);
+  .player-position {
+    font-size: inherit;
+    font-family: var(--body-top-font-family);
+  }
+  .player-info {
+    font-size: inherit;
+    font-family: var(--body-top-font-family);
+  }
+  .team-top-player-img {
+    font-size: inherit;
+    .initials {
+      font-size: 130%;
+    }
+  }
+}
+.team-lineup-wrapper {
+  font-size: var(--body-font-size);
+  .player-list {
+    .main-title {
+      font-size: var(--accordion-title-font-size);
+      font-family: var(--body-top-font-family);
+    }
+    .participants-list {
+      font-size: var(--body-font-size);
+      .thumb {
+        font-size: var(--body-font-size);
+        .initials-bg {
+          font-size: var(--body-font-size);
+          .initials {
+            font-size: 180%;
+            font-family: var(--body-top-font-family);
+          }
+        }
+        .description-info {
+          font-size: var(--body-font-size);
+          font-family: var(--body-top-font-family);
+          .element-first-label {
+            font-size: var(--body-font-size);
+            font-family: var(--body-top-font-family);
+          }
+        }
+      }
+      .verses-text {
+        font-size: 120%;
+        font-family: var(--body-top-font-family);
+      }
+      .teams-score-info {
+        font-size: 200%;
+        font-family: var(--body-top-font-family);
+      }
+      .date-info,
+      .status-info {
+        font-size: 50%;
+      }
+    }
+  }
+}
+.event-des-item {
+  font-size: var(--body-font-size);
+  i,
+  ion-icon {
+    font-size: var(--block-title-font-size);
+  }
+  .fs-13 {
+    font-size: inherit;
+  }
+  .fs-11 {
+    font-size: 88%;
+  }
+  .btn-less-more,
+  .readmore-btn,
+  .readless-btn {
+    i {
+      font-size: var(--body-font-size);
+    }
+  }
+}
+.highlights-row {
+  font-size: var(--body-font-size);
+  .stats-header-title {
+    font-size: 120%;
+  }
+  .stats-header-value {
+    font-size: inherit;
+  }
+  .stats-dashed {
+    font-size: inherit;
+  }
+}
+.fitness-stats {
+  font-size: var(--body-font-size);
+  .stats-header-title {
+    font-size: 90%;
+  }
+  .stats-header-value {
+    font-size: 180%;
+  }
+}
+/* Tabs Font Size */
+/* TODO(mdc-migration): The following rule targets internal classes of tabs that may no longer apply for the MDC version.*/
+/* TODO(mdc-migration): The following rule targets internal classes of tabs that may no longer apply for the MDC version.*/
+/* TODO(mdc-migration): The following rule targets internal classes of tabs that may no longer apply for the MDC version.*/
+mat-tab-group {
+  font-size: var(--body-font-size);
+  /* TODO(mdc-migration): The following rule targets internal classes of tabs that may no longer apply for the MDC version.*/
+  .mat-mdc-tab-label,
+  .mat-mdc-tab-link {
+    font-size: 120%;
+    font-family: var(--tab-font-family) !important;
+  }
+  .mat-mdc-form-field {
+    font-size: 100%;
+  }
+  .main-title {
+    font-size: var(--accordion-title-font-size)
+  }
+  .player-position {
+    font-size: 100%;
+  }
+  .player-info {
+    font-size: 100%;
+  }
+}
+/* Complements Font Size */
+.complements-grid {
+  font-size: var(--body-font-size);
+  .complements-grid-content-box {
+    font-size: var(--body-font-size);
+    .card {
+      font-size: var(--body-font-size);
+      .content-wrapper {
+        font-size: var(--body-font-size);
+        .maintxt {
+          font-size: var(--body-font-size);
+        }
+        .name {
+          font-size: var(--body-font-size);
+        }
+        .para {
+          font-size: 80%;
+        }
+      }
+    }
+  }
+}
+/* Digital Assets Font Size */
+.block-images {
+  font-size: var(--body-font-size);
+  .block-description {
+    font-size: var(--body-font-size);
+    .iq-title {
+      font-size: var(--body-font-size);
+      a {
+        font-size: var(--body-font-size);
+      }
+    }
+    .hover-buttons {
+      font-size: var(--body-font-size);
+      .btn-hover {
+        font-size: var(--body-font-size);
+        i {
+          font-size: 160%;
+        }
+      }
+    }
+  }
+  .viewall-btn-thumbnail {
+    font-size: var(--body-font-size);
+    h6 {
+      font-size: var(--body-font-size);
+    }
+  }
+}
+/* Avatar Font Size */
+ion-avatar {
+  font-size: var(--body-font-size);
+  .initials {
+    font-size: 150%;
+  }
+  ion-icon,
+  i {
+    font-size: 300%;
+  }
+}
+.profilepic-wrap {
+  font-size: var(--body-font-size);
+  .initialletters {
+    font-size: 150%;
+  }
+}
+/* Posts Font Size */
+.post-card {
+  font-size: var(--body-font-size);
+  .userdetails-line {
+    font-size: var(--body-font-size);
+    ion-avatar {
+      font-size: var(--body-font-size);
+    }
+    ion-label {
+      font-size: inherit;
+      .fs-13 {
+        font-size: inherit;
+      }
+      .fs-12 {
+        font-size: 90%;
+      }
+    }
+  }
+  .post-content-wrapper {
+    font-size: inherit;
+    .fs-13 {
+      font-size: inherit;
+    }
+    a {
+      .fs-13 {
+        font-size: inherit;
+      }
+    }
+    a.fs-13 {
+      font-size: inherit;
+    }
+  }
+  .downarrow-icon {
+    font-size: inherit;
+    .downarrow {
+      font-size: 140%;
+    }
+  }
+  .shared-post {
+    font-size: inherit;
+    .spdetails {
+      font-size: inherit;
+      .userfirstline {
+        font-size: inherit;
+        .postlabel {
+          font-size: inherit;
+          .fs-13 {
+            font-size: inherit;
+          }
+        }
+      }
+      .post-content-wrap {
+        font-size: inherit;
+        .fs-13 {
+          font-size: inherit;
+        }
+      }
+    }
+  }
+}
+.post-view-card {
+  font-size: var(--body-font-size);
+  ion-item {
+    font-size: inherit;
+    ion-avatar {}
+    ion-label {
+      font-size: inherit;
+      .fs-13 {
+        font-size: inherit;
+      }
+      .fs-12 {
+        font-size: 90%;
+      }
+    }
+    .downarrow-icon {
+      .downarrow {
+        font-size: 140%;
+      }
+    }
+    .fs-13 {
+      font-size: inherit;
+    }
+    .fs-12 {
+      font-size: 90%;
+    }
+  }
+  .sharedpost-details {
+    .fs-13 {
+      font-size: inherit;
+    }
+    a.fs-13 {
+      font-size: inherit;
+    }
+  }
+  .prewrap {
+    font-size: inherit;
+    a {
+      font-size: inherit;
+    }
+  }
+}
+.showCommentReplies {
+  font-size: var(--body-font-size);
+  ion-text.fs-12 {
+    font-size: inherit;
+  }
+}
+.comments {
+  font-size: var(--body-font-size);
+  ion-item {
+    font-size: inherit;
+    ion-label {
+      font-size: inherit;
+      i {
+        font-size: 150%;
+      }
+      ion-icon {
+        font-size: 150%;
+      }
+      .fs-13 {
+        font-size: inherit;
+      }
+      .fs-12 {
+        font-size: 90%;
+      }
+    }
+    .fs-13 {
+      font-size: inherit;
+    }
+    .fs-12 {
+      font-size: 90%;
+    }
+  }
+  button.liked {
+    font-size: var(--body-font-size);
+    i {
+      font-size: 120%;
+    }
+  }
+}
+/* Industries Page Font Size */
+.industries-block {
+  font-size: var(--body-font-size);
+  ion-grid {
+    font-size: inherit;
+    .fs-14 {
+      font-size: inherit;
+    }
+    a {
+      font-size: inherit;
+    }
+    ion-icon.child-enterprise {
+      font-size: 120%;
+    }
+  }
+  .fs-14 {
+    font-size: inherit;
+  }
+}
+/* Digital Assets */
+.subsection-title-bg {
+  font-size: var(--section-title-font-size);
+  .main-title {
+    font-size: var(--section-title-font-size);
+  }
+  .fs12em {
+    font-size: 90%;
+  }
+  .viewall-btn-thumbnail {
+    font-size: inherit;
+    h6 {
+      font-size: 130%;
+    }
+  }
+}
+.leaderboard-title-bg.golf-game-leaderboard-title {
+  font-size: var(--section-title-font-size);
+  .main-title {
+    font-size: 140%;
+  }
+  i.edit-icon {
+    font-size: 90%;
+  }
+  .btn-fullscreen-mode {
+    font-size: 140%;
+  }
+  i.fullscreen-mode-icon {
+    font-size: 80%;
+  }
+  .leaderboard-list {
+    font-size: var(--section-title-font-size);
+    .leaderboard-event-name {
+      font-size: 140%;
+    }
+    .leaderboard-event-listscroll {
+      font-size: var(--section-title-font-size);
+      .leaderboard-event-item {
+        font-size: 140%;
+      }
+    }
+  }
+}
+.golf-game-leaderboard-info-wrapper {
+  font-size: var(--section-title-font-size);
+  .leaderboard-details-info {
+    font-size: 120%;
+  }
+}
+.ptable {
+  .p-datatable-thead {
+    .golf-game-leader-board-row {
+      font-size: var(--section-title-font-size);
+      th {
+        font-size: 110%;
+      }
+    }
+    .golf-game-leader-board-row.sub-title {
+      font-size: var(--section-title-font-size);
+      th {
+        font-size: 100%;
+      }
+    }
+  }
+  .p-datatable-tbody {
+    .golf-game-leader-board-row-values {
+      font-size: var(--section-title-font-size);
+      td {
+        font-size: 100%;
+      }
+    }
+  }
+}
+/* Login Font Size */
+.background {
+  font-size: var(--body-font-size);
+  .card-form {
+    font-size: var(--body-font-size);
+    .form-row {
+      font-size: var(--body-font-size);
+      .mat-mdc-form-field {
+        .mat-mdc-form-field-infix {
+          font-size: var(--body-font-size);
+        }
+      }
+    }
+  }
+  .error-msg {
+    font-size: 90%;
+  }
+  .card-footer {
+    button {
+      font-size: var(--body-font-size);
+    }
+  }
+  .btn-enterprise-list {
+    font-size: inherit;
+    i {
+      font-size: inherit;
+    }
+    button {
+      font-size: var(--body-font-size);
+    }
+  }
+}
+.mat-mdc-form-field,
+.mat-mdc-floating-label {
+  font-size: var(--body-font-size);
+}
+.mat-mdc-select {
+  font-size: var(--body-font-size);
+}
+/* Content Pages */
+.regular-content {
+  font-size: var(--body-font-size);
+  h4.fs-14 {
+    font-size: inherit;
+  }
+  p {
+    font-size: inherit;
+  }
+  a {
+    font-size: inherit;
+  }
+}
+/* Messages Font Size */
+.latest-chat-list {
+  font-size: var(--body-font-size);
+  .notifications {
+    i {
+      font-size: inherit;
+    }
+  }
+  .startnew-chat {
+    font-size: inherit;
+    a {
+      font-size: inherit;
+      span {
+        font-size: inherit;
+      }
+    }
+  }
+}
+.chatsummary {
+  font-size: var(--body-font-size);
+  ion-item {
+    font-size: inherit;
+    ion-avatar {
+      .chat-profileImage {
+        font-size: inherit;
+        .initials {
+          font-size: 150%;
+        }
+      }
+    }
+    ion-item-divider {
+      font-size: inherit;
+      ion-label {
+        font-size: inherit;
+        ion-text {
+          font-size: inherit;
+        }
+        .user-title-post {
+          font-size: inherit;
+        }
+        .fs-13 {
+          font-size: inherit;
+        }
+      }
+    }
+  }
+}
+.empty-chat-content {
+  font-size: var(--body-font-size);
+  h6 {
+    font-size: 120%;
+  }
+}
+.chatdetails-box-wrapper {
+  font-size: var(--body-font-size);
+  .loading-msgs {
+    font-size: 90%;
+  }
+  .messages-list-wrapper {
+    font-size: var(--body-font-size);
+    .messages-list {
+      font-size: inherit;
+      .message-out {
+        font-size: inherit;
+        .msg-saparator {
+          font-size: inherit;
+          .title-default {
+            font-size: 110%;
+          }
+        }
+        ion-avatar {
+          .profilepic-wrap {
+            font-size: inherit;
+            .initialletters {
+              font-size: 130%;
+            }
+          }
+        }
+        .msgcontainer {
+          font-size: inherit;
+          .chatuser-info {
+            font-size: inherit;
+            .h3 {
+              font-size: inherit;
+            }
+            .chat-info {
+              font-size: var(--body-font-size);
+              p {
+                font-size: 90%;
+              }
+              .listmoreicon {
+                font-size: inherit;
+              }
+              .ticks {
+                font-size: inherit;
+              }
+            }
+          }
+          .msg-bg {
+            font-size: inherit;
+            .prewrap,
+            p {
+              font-size: inherit;
+            }
+          }
+        }
+      }
+      .group-chatmessage {
+        .msg-saparator {
+          font-size: inherit;
+          .title-default {
+            font-size: 110%;
+          }
+        }
+        .group-chatmessage {
+          ion-avatar {
+            .profilepic-wrap {
+              font-size: inherit;
+              .initialletters {
+                font-size: 130%;
+              }
+            }
+          }
+          .msgcontainer {
+            font-size: inherit;
+            .chatuser-info {
+              font-size: inherit;
+              .h3 {
+                font-size: inherit;
+              }
+              .chat-info {
+                font-size: var(--body-font-size);
+                p {
+                  font-size: 90%;
+                }
+                .listmoreicon {
+                  font-size: inherit;
+                }
+              }
+            }
+            .msg-bg {
+              .prewrap {
+                font-size: inherit;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  .prewrap,
+  p {
+    font-size: inherit;
+  }
+}
+.chat-details {
+  font-size: var(--body-font-size);
+  .warningmsg {
+    font-size: inherit;
+    ion-text {
+      font-size: 90%;
+    }
+  }
+  .textborder {
+    font-size: inherit;
+    .chatbox {
+      .chatbox-content {
+        font-size: inherit;
+        .chatbox-wrapper {
+          .chatbox-placeholder {
+            font-size: inherit;
+          }
+          .chatbox-text {
+            font-size: inherit;
+          }
+          .bt {
+            i {
+              font-size: 170%;
+            }
+          }
+        }
+      }
+      .msg-ft {
+        .action-btns-list {
+          .action-btns-wrapper {
+            .action-btns {
+              ion-icon {
+                font-size: 140%;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+.chatinfo-wrapper {
+  font-size: var(--body-font-size);
+  .chatdetails-list {
+    font-size: var(--body-font-size);
+    .action-list {
+      font-size: var(--body-font-size);
+      .avatar-info {
+        font-size: var(--body-font-size);
+        i {
+          font-size: var(--block-title-font-size);
+        }
+        ion-avatar {
+          font-size: var(--body-font-size);
+          .profilepic-wrap {
+            font-size: var(--body-font-size);
+            .initialletters {
+              font-size: 150%;
+            }
+          }
+        }
+        .msgcontainer {
+          font-size: var(--body-font-size);
+          p {
+            font-size: inherit;
+          }
+        }
+      }
+    }
+  }
+}
+.searchblock {
+  font-size: var(--body-font-size);
+  .action-list.search-action-list {
+    font-size: var(--block-title-font-size);
+    i {
+      font-size: var(--block-title-font-size);
+    }
+    a.btn-link {
+      font-size: var(--block-title-font-size);
+      i {
+        font-size: var(--block-title-font-size);
+      }
+    }
+  }
+}
+.msg-saparator {
+  font-size: var(--body-font-size);
+  ion-title.title-default {
+    font-size: 110%;
+  }
+}
+.capture-img {
+  .snap-btn {
+    font-size: var(--body-font-size);
+    i {
+      font-size: 140%;
+    }
+  }
+}
+/* Search Page Font Size (Facilities Locate Starting Point) */
+.search-block {
+  font-size: var(--body-font-size);
+  .facilities-searchbar {
+    font-size: inherit;
+    .searchbar-input {
+      font-size: inherit;
+    }
+    ion-icon {
+      font-size: inherit;
+    }
+    .searchbar-clear-button {
+      font-size: inherit;
+      ion-icon {
+        font-size: inherit;
+      }
+    }
+  }
+}
+.from-location {
+  font-size: var(--body-font-size);
+  .attractions-list-item {
+    font-size: inherit;
+    ion-avatar {
+      font-size: 150%;
+    }
+    ion-label {
+      font-size: inherit;
+    }
+    ion-note {
+      font-size: 90%;
+    }
+  }
+}
+.navigate-btn {
+  font-size: var(--body-font-size);
+  i {
+    font-size: 150%;
+  }
+}
+/* Home Page Font Size */
+.homegridlist-item {
+  font-size: var(--body-font-size);
+  a {
+    font-size: var(--body-font-size);
+    i {
+      font-size: 200%;
+    }
+  }
+  .grid-title {
+    font-size: 116%;
+  }
+}
+.homegrid-cards-list {
+  font-size: var(--body-font-size);
+  .item {
+    font-size: var(--body-font-size);
+    i {
+      font-size: 3rem;
+    }
+    .grid-title {
+      font-size: 120%;
+    }
+  }
+}
+/* Tutorials Page Font Size */
+.slider-text {
+  font-size: var(--body-font-size);
+  h2 {
+    font-size: var(--accordion-title-font-size);
+  }
+  p {
+    font-size: var(--body-font-size);
+    i {
+      font-size: var(--body-font-size);
+    }
+  }
+  i.fab-bg {
+    font-size: 150%;
+  }
+  .fab-bg {
+    font-size: var(--body-font-size);
+    i {
+      font-size: 150%;
+    }
+  }
+}
+.tutorials-page {
+  font-size: var(--body-font-size);
+  .tutorials-slider-wrapper {
+    font-size: var(--body-font-size);
+    .swiper-slide {
+      font-size: var(--body-font-size);
+      .slider-text {
+        font-size: var(--body-font-size);
+        p {
+          font-size: 110%;
+        }
+        h2 {
+          font-size: 150%;
+        }
+      }
+    }
+  }
+  .skipbutton {
+    font-size: 150%;
+  }
+}
+.onboard-screen {
+  font-size: var(--body-font-size);
+  .slider-text {
+    font-size: var(--body-font-size);
+    p {
+      font-size: 110%;
+    }
+    h1,
+    h2,
+    h3,
+    h4 {
+      font-size: 150%;
+    }
+  }
+}
+.navigator {
+  font-size: var(--body-font-size);
+  ion-button {
+    font-size: inherit;
+  }
+}
+.navigator.tutorials-navigator,
+.btn-prev,
+.btn-next {
+  font-size: var(--body-font-size);
+  i {
+    font-size: 150%;
+  }
+}
+/* Angular Advanced Editor */
+angular-editor {
+  font-size: var(--body-font-size);
+  .angular-editor {
+    .angular-editor-toolbar {
+      font-size: inherit;
+      .ae-font .ae-picker-label {
+        font-size: inherit;
+      }
+      .fa {
+        font-size: inherit;
+      }
+    }
+  }
+}
+.action-btns-list {
+  font-size: var(--body-font-size);
+  .action-btns {
+    font-size: inherit;
+  }
+}
+/* Ion Modal Popup Font Size */
+ion-modal {
+  font-size: var(--body-font-size);
+  .modal-wrapper {
+    font-size: inherit;
+    .modal-title {
+      font-size: var(--modal-title-font-size);
+    }
+    ion-content {
+      font-size: var(--body-font-size);
+      ion-text {
+        font-size: var(--body-font-size);
+      }
+      .usermenu-wrapper {
+        font-size: var(--body-font-size);
+        ion-avatar {
+          font-size: var(--body-font-size);
+          .profileImage {
+            font-size: var(--body-font-size);
+            .initials {
+              font-size: var(--body-font-size);
+            }
+          }
+        }
+        ion-label {
+          font-size: var(--body-font-size);
+          .fs-12 {
+            font-size: var(--body-font-size);
+          }
+        }
+        .useractions {
+          font-size: var(--body-font-size);
+          ion-icon {
+            font-size: var(--body-font-size);
+          }
+        }
+      }
+      ion-button {
+        font-size: inherit;
+      }
+      .mat-mdc-button.btn.btn-sm,
+      .btn-group-sm .mat-mdc-button.btn,
+      .mat-mdc-raised-button.btn.btn-sm,
+      .btn-group-sm .mat-mdc-raised-button.btn,
+      .mat-mdc-raised-button.btn:not([class*=mat-elevation-z]).btn-sm,
+      .btn-group-sm .mat-mdc-raised-button.btn:not([class*=mat-elevation-z]),
+      .btn.btn-sm,
+      .btn-group-sm .btn,
+      ion-button,
+      button,
+      .btn {
+        font-size: var(--body-font-size);
+      }
+    }
+  }
+}
+/* Ion Alerts Font Size */
+ion-alert {
+  font-size: var(--body-font-size);
+  .alert-head {
+    font-size: var(--body-font-size);
+    .alert-title {
+      font-size: var(--modal-title-font-size);
+    }
+    h2.header-title {
+      font-size: var(--modal-title-font-size);
+    }
+  }
+  .alert-message {
+    font-size: var(--body-font-size) !important;
+  }
+  .alert-button-group {
+    font-size: var(--body-font-size);
+    .alert-button {
+      font-size: var(--body-font-size);
+    }
+    button {
+      font-size: var(--body-font-size);
+    }
+  }
+}
+/* Devices Page Font Size */
+.devices-content {
+  font-size: var(--body-font-size);
+  ion-item {
+    font-size: var(--body-font-size);
+    .fs-14 {
+      font-size: var(--body-font-size);
+    }
+    .fs-12 {
+      font-size: 80%;
+    }
+    ion-icon {
+      font-size: 150%;
+    }
+  }
+  ion-chip {
+    font-size: var(--body-font-size);
+    ion-icon {
+      font-size: 150%;
+    }
+  }
+}
+/* Sweet Alert Font Size */
+.swal2-container.swal2-shown {
+  font-size: var(--body-font-size);
+  .swal2-content {
+    font-size: var(--body-font-size);
+  }
+  .swal2-actions {
+    font-size: var(--body-font-size);
+    button {
+      font-size: 120%;
+    }
+  }
+}
+/* Play Board Font Size */
+.button-holder {
+  font-size: var(--body-font-size);
+  .action-widget-bg {
+    font-size: var(--body-font-size);
+    .web {
+      font-size: var(--body-font-size);
+      .card-icon {
+        font-size: var(--body-font-size);
+        i {
+          font-size: 300%;
+        }
+      }
+    }
+    .card-icon {
+      font-size: var(--body-font-size);
+      i {
+        font-size: 250%;
+      }
+      .card-title {
+        font-size: 180%;
+      }
+    }
+  }
+  .widget-content {
+    font-size: var(--body-font-size);
+    .widget-bg {
+      font-size: var(--body-font-size);
+      .widget-icon {
+        font-size: var(--body-font-size);
+        i {
+          font-size: 300%;
+        }
+      }
+      .widget-info {
+        .widget-title {
+          font-size: 180%;
+        }
+        .widget-category {
+          font-size: 180%;
+        }
+        .card-category {
+          font-size: 180%;
+        }
+      }
+    }
+  }
+}
+/* Web Dashboard Font Size */
+.button-holder {
+  font-size: var(--body-font-size);
+  .bg-white {
+    font-size: var(--body-font-size);
+    i {
+      font-size: 300%;
+    }
+    span {
+      font-size: 130%;
+    }
+    .last30sec {
+      font-size: var(--body-font-size);
+      span {
+        font-size: 130%;
+      }
+    }
+    .total {
+      font-size: var(--body-font-size);
+      span {
+        font-size: 130%;
+      }
+    }
+    .range-slide-bar-info {
+      font-size: var(--body-font-size);
+      span {
+        font-size: 130%;
+      }
+    }
+    p.last30sec {
+      font-size: 130%;
+    }
+  }
+  .table-responsive {
+    font-size: var(--body-font-size);
+    .card-header {
+      font-size: var(--body-font-size);
+      .card-title {
+        font-size: 150%;
+      }
+    }
+    .card-body {
+      font-size: var(--body-font-size);
+      .table {
+        font-size: var(--body-font-size);
+        thead {
+          font-size: var(--body-font-size);
+          td {
+            font-size: 130%;
+            span {
+              font-size: 130%;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+/* owl-date-time-calendar Font Size */
+.owl-dt-container {
+  font-size: var(--body-font-size);
+}
+.owl-dt-calendar-table {
+  font-size: var(--body-font-size);
+  .owl-dt-calendar-cell-content {
+    font-size: 80%;
+  }
+  .owl-dt-calendar-header {
+    font-size: var(--body-font-size);
+    .owl-dt-weekdays {
+      font-size: var(--body-font-size);
+      th {
+        font-size: 80%;
+      }
+    }
+  }
+}
+.owl-dt-calendar-control {
+  font-size: var(--body-font-size);
+}
+.owl-dt-timer-content {
+  font-size: var(--body-font-size);
+  .owl-dt-timer-input {
+    font-size: var(--body-font-size);
+  }
+}
+/* Full Calendar Font Size */
+.fullcalendarcomponent {
+  font-size: var(--body-font-size);
+  font-family: var(--calendar-font-family);
+  .fc-toolbar.fc-header-toolbar {
+    font-size: var(--section-title-font-size);
+    .fc-center, .fc-toolbar-chunk {
+      font-size: var(--section-title-font-size);
+      .btn-primary:not(:disabled):not(.disabled).active {
+        font-size: 90%;
+      }
+      .btn.btn-primary {
+        font-size: 90%;
+      }
+      h2 {
+        font-size: 90%;
+      }
+    }
+    .fc-right {
+      .btn-group {
+        .btn-primary:not(:disabled):not(.disabled).active {
+          font-size: var(--body-font-size);
+        }
+        .btn.btn-primary {
+          font-size: var(--body-font-size);
+        }
+      }
+    }
+  }
+}
+.events-date-toolbar {
+  font-size: var(--body-font-size);
+  .events-date-title {
+    font-size: 120%;
+    i {
+      font-size: 120%;
+    }
+  }
+}
+/* */
+.qa-block {
+  font-size: var(--body-font-size);
+  ion-label {
+    font-size: var(--body-font-size) !important;
+  }
+  ion-item {
+    ion-label {
+      font-size: var(--body-font-size) !important;
+    }
+  }
+  ion-radio {
+    font-size: var(--body-font-size) !important;
+    label {
+      font-size: var(--body-font-size) !important;
+    }
+  }
+}
+/* Form Elements */
+.mat-mdc-option {
+  font-size: var(--body-font-size);
+}
+@media only screen and (min-width: 240px) and (max-width: 375px) {
+  /* Full Calendar Font Size */
+  .fullcalendarcomponent {
+    font-size: var(--body-font-size);
+    .fc-toolbar.fc-header-toolbar {
+      font-size: var(--section-title-font-size);
+      .fc-center, .fc-toolbar-chunk {
+        font-size: var(--section-title-font-size);
+        .btn-primary:not(:disabled):not(.disabled).active {
+          font-size: 70%;
+        }
+        .btn.btn-primary {
+          font-size: 70%;
+        }
+        h2 {
+          font-size: 70%;
+        }
+      }
+      .fc-right {
+        .btn-group {
+          .btn-primary:not(:disabled):not(.disabled).active {
+            font-size: var(--body-font-size);
+          }
+          .btn.btn-primary {
+            font-size: var(--body-font-size);
+          }
+        }
+      }
+    }
+  }
+  /* Page Title Font Size */
+  .card [class*=card-header-] {
+    font-size: var(--block-title-font-size);
+    .card-title {
+      font-size: 80%;
+    }
+  }
+  .card[class*=bg-] .card-title {
+    font-size: var(--block-title-font-size);
+    .card-title {
+      font-size: 80%;
+    }
+  }
+  .card-header.card-header-primary {
+    font-size: var(--block-title-font-size);
+    i {
+      font-size: 100%;
+    }
+    ion-icon {
+      font-size: 100%;
+    }
+    .subpage-header-title {
+      font-size: 80%;
+    }
+    app-pageheader {
+      font-size: var(--block-title-font-size);
+      h4.subpage-title {
+        font-size: inherit;
+      }
+    }
+  }
+  .card-header-primary {
+    font-size: var(--block-title-font-size);
+    .btn-link {
+      i {
+        --bs-btn-font-size: 70%;
+        font-size: var(--bs-btn-font-size);
+      }
+    }
+    .mat-mdc-menu-trigger {
+      i {
+        font-size: 70%;
+      }
+    }
+  }
+  .mat-mdc-menu-content a.btn,
+  .mat-mdc-menu-content a.btn:not([href]):not([tabindex]) {
+    --bs-btn-font-size: 90%;
+    font-size: var(--bs-btn-font-size);
+  }
+  .block-title-content {
+    font-size: var(--section-title-font-size);
+    .block-title {
+      font-size: 80%;
+    }
+  }
+  .btn-view-all {
+    font-size: var(--body-font-size);
+  }
+  .events-block {
+    font-size: var(--body-font-size);
+    .events-block-content-wrapper {
+      font-size: inherit;
+      .event-info-wrapper {
+        font-size: inherit;
+        a.enable {
+          font-size: inherit;
+        }
+        p {
+          font-size: inherit;
+        }
+      }
+    }
+  }
+  .social-links-wrapper {
+    font-size: var(--body-font-size);
+    .social-links-list-content {
+      font-size: var(--body-font-size);
+      ul {
+        font-size: var(--body-font-size);
+        li {
+          font-size: var(--body-font-size);
+          i {
+            font-size: var(--section-title-font-size);
+          }
+        }
+      }
+    }
+  }
+  .social-media-block-wrapper {
+    font-size: var(--body-font-size);
+    .box-title-wrapper {
+      font-size: var(--body-font-size);
+      .box-title {
+        font-size: var(--topmenu-font-size);
+      }
+    }
+  }
+  .app-links-block {
+    font-size: var(--body-font-size);
+    .contact-block {
+      font-size: var(--body-font-size);
+      p {
+        font-size: var(--topmenu-font-size);
+      }
+    }
+  }
+  /* Tables, Listing, Grid Font Size */
+  .gridview-list-wrapper {
+    font-size: var(--body-font-size);
+    .gridview-title {
+      font-size: 80%;
+    }
+  }
+  /* Digital Assets */
+  .subsection-title-bg {
+    font-size: var(--section-title-font-size);
+    .main-title {
+      font-size: 80%;
+    }
+  }
+  /* Accordion Block Font Size */
+  p-accordion {
+    font-size: var(--accordion-title-font-size);
+    p-accordiontab {
+      font-size: var(--accordion-title-font-size);
+      .p-accordion-header {
+        .p-accordion-header-link {
+          .p-accordion-toggle-icon {
+            font-size: 90%;
+          }
+          .accordion-header {
+            font-size: 90%;
+          }
+        }
+      }
+    }
+  }
+  /* Main Banners Block, Stats Font Size */
+  .player-view {
+    .player-title-bg {
+      font-size: var(--section-title-font-size);
+      .main-title,
+      h4 {
+        font-size: 80%;
+      }
+    }
+  }
+  /* Ion Modal Popup Font Size */
+  ion-modal {
+    font-size: var(--body-font-size);
+    .modal-wrapper {
+      font-size: inherit;
+      .modal-title {
+        font-size: var(--modal-title-font-size);
+      }
+      ion-content {
+        font-size: var(--body-font-size);
+        ion-text {
+          font-size: 85%;
+        }
+        .usermenu-wrapper {
+          font-size: inherit;
+          ion-avatar {
+            font-size: inherit;
+            .profileImage {
+              font-size: inherit;
+              .initials {
+                font-size: inherit;
+              }
+            }
+          }
+          ion-label {
+            font-size: inherit;
+            .fs-12 {
+              font-size: inherit;
+            }
+          }
+          .useractions {
+            ion-icon {
+              font-size: inherit;
+            }
+          }
+        }
+        ion-button {
+          font-size: inherit;
+        }
+        .mat-mdc-button.btn.btn-sm,
+        .btn-group-sm .mat-mdc-button.btn,
+        .mat-mdc-raised-button.btn.btn-sm,
+        .btn-group-sm .mat-mdc-raised-button.btn,
+        .mat-mdc-raised-button.btn:not([class*=mat-elevation-z]).btn-sm,
+        .btn-group-sm .mat-mdc-raised-button.btn:not([class*=mat-elevation-z]),
+        .btn.btn-sm,
+        .btn-group-sm .btn,
+        ion-button,
+        button,
+        .btn {
+          font-size: 100%;
+        }
+      }
+    }
+  }
+}
+.register-wrapper {
+  font-size: var(--body-font-size);
+  font-family: var(--form-font-family) !important;
+  .form-title {
+    font-size: 180%;
+  }
+  .validate-form-title {
+    font-size: 90%;
+  }
+  .form-subtitle-big {
+    font-size: 200%;
+  }
+  .form-subtitle-small {
+    font-size: 180%;
+  }
+  .form-sub-txt {
+    font-size: var(--body-font-size);
+  }
+  .validate-icon {
+    font-size: 160%;
+  }
+  .form-section-title {
+    font-size: 130%;
+  }
+  .btn-home {
+    i {
+      font-size: 140%;
+    }
+  }
+  .filter-icon {
+    font-size: 150%;
+  }
+  .privacy-policy-txt {
+    font-size: var(--body-font-size);
+    .btn.btn-link {
+      font-size: var(--body-font-size);
+    }
+  }
+  .mat-mdc-form-field-input-control.mat-mdc-form-field-input-control {
+    font-size: var(--body-font-size);
+  }
+}
+.capture-action-btns {
+  font-size: var(--body-font-size);
+  ion-icon,
+  i {
+    font-size: 250%;
+  }
+}
+// X-Small devices (portrait phones, less than 576px)
+@media only screen and (min-width: 240px) and (max-width: 575px) {
+  /* Full Calendar Font Size */
+  .fullcalendarcomponent {
+    font-size: var(--body-font-size);
+    .fc-toolbar.fc-header-toolbar {
+      font-size: var(--section-title-font-size);
+      .fc-center, .fc-toolbar-chunk {
+        font-size: var(--section-title-font-size);
+        .btn-primary:not(:disabled):not(.disabled).active {
+          font-size: 70%;
+        }
+        .btn.btn-primary {
+          font-size: 70%;
+        }
+        h2 {
+          font-size: 70%;
+        }
+      }
+      .fc-right {
+        .btn-group {
+          .btn-primary:not(:disabled):not(.disabled).active {
+            font-size: var(--body-font-size);
+          }
+          .btn.btn-primary {
+            font-size: var(--body-font-size);
+          }
+        }
+      }
+    }
+  }
+  /* Page Title Font Size */
+  .card [class*=card-header-] {
+    font-size: var(--block-title-font-size);
+    .card-title {
+      font-size: 120%;
+    }
+  }
+  .card[class*=bg-] .card-title {
+    font-size: var(--block-title-font-size);
+    .card-title {
+      font-size: 120%;
+    }
+  }
+  .card-header.card-header-primary {
+    font-size: var(--block-title-font-size);
+    i {
+      font-size: 100%;
+    }
+    ion-icon {
+      font-size: 100%;
+    }
+    .subpage-header-title {
+      font-size: 100%;
+    }
+    app-pageheader {
+      font-size: var(--block-title-font-size);
+      h4.subpage-title {
+        font-size: 100%;
+        i {
+          font-size: 100%;
+        }
+      }
+    }
+  }
+  .card-header-primary {
+    font-size: var(--block-title-font-size);
+    .btn-link {
+      i {
+        --bs-btn-font-size: 120%;
+        font-size: var(--bs-btn-font-size);
+      }
+    }
+    .mat-mdc-menu-trigger {
+      i {
+        font-size: 120%;
+      }
+    }
+  }
+  .event-des-item {
+    font-size: var(--block-title-font-size);
+    i,
+    ion-icon {
+      font-size: 90%;
+    }
+    ion-label {
+      font-size: var(--body-font-size) !important;
+      .fs-13 {
+        font-size: var(--body-font-size);
+      }
+      .fs-11 {
+        font-size: 88%;
+      }
+    }
+    .btn-less-more,
+    .readmore-btn,
+    .readless-btn {
+      i {
+        font-size: var(--body-font-size);
+      }
+    }
+  }
+  .mat-mdc-menu-content a.btn,
+  .mat-mdc-menu-content a.btn:not([href]):not([tabindex]) {
+    --bs-btn-font-size: inherit;
+    font-size: var(--bs-btn-font-size);
+  }
+  .block-title-content {
+    font-size: var(--section-title-font-size);
+    .block-title {
+      font-size: 80%;
+    }
+  }
+  .btn-view-all {
+    font-size: var(--body-font-size);
+  }
+  .events-block {
+    font-size: var(--body-font-size);
+    .events-block-content-wrapper {
+      font-size: inherit;
+      .event-info-wrapper {
+        font-size: inherit;
+        a.enable {
+          font-size: inherit;
+        }
+        p {
+          font-size: inherit;
+        }
+      }
+    }
+  }
+  .social-links-wrapper {
+    font-size: var(--body-font-size);
+    .social-links-list-content {
+      font-size: var(--body-font-size);
+      ul {
+        font-size: var(--body-font-size);
+        li {
+          font-size: var(--body-font-size);
+          i {
+            font-size: var(--section-title-font-size);
+          }
+        }
+      }
+    }
+  }
+  .social-media-block-wrapper {
+    font-size: var(--body-font-size);
+    .box-title-wrapper {
+      font-size: var(--body-font-size);
+      .box-title {
+        font-size: var(--topmenu-font-size);
+      }
+    }
+  }
+  .app-links-block {
+    font-size: var(--body-font-size);
+    .contact-block {
+      font-size: var(--body-font-size);
+      p {
+        font-size: var(--topmenu-font-size);
+      }
+    }
+  }
+  /* Tables, Listing, Grid Font Size */
+  .gridview-list-wrapper {
+    font-size: var(--body-font-size);
+    .gridview-title {
+      font-size: 100%;
+    }
+    .grid-full-images {
+      .gridview-title {
+        font-size: 100%;
+      }
+    }
+  }
+  /* Digital Assets */
+  .subsection-title-bg {
+    font-size: var(--section-title-font-size);
+    .main-title {
+      font-size: 80%;
+    }
+  }
+  /* Accordion Block Font Size */
+  p-accordion {
+    font-size: var(--accordion-title-font-size);
+    p-accordiontab {
+      font-size: var(--accordion-title-font-size);
+      .p-accordion-header {
+        .p-accordion-header-link {
+          .p-accordion-toggle-icon {
+            font-size: 90%;
+          }
+          .accordion-header {
+            font-size: 90%;
+          }
+        }
+      }
+    }
+  }
+  /* Main Banners Block, Stats Font Size */
+  .player-view {
+    .player-title-bg {
+      font-size: var(--section-title-font-size);
+      .main-title,
+      h4 {
+        font-size: 80%;
+      }
+    }
+  }
+  .register-wrapper {
+    font-size: var(--body-font-size);
+    .form-subtitle-small {
+      font-size: 160%;
+    }
+  }
+  .button-holder {
+    .action-widget-bg {
+      font-size: inherit;
+      .web {
+        font-size: inherit;
+        .card-icon {
+          font-size: inherit;
+          i {
+            font-size: 300%;
+          }
+        }
+      }
+      .card-icon {
+        font-size: inherit;
+        i {
+          font-size: 250%;
+        }
+        .card-title {
+          font-size: 140%;
+        }
+      }
+    }
+    .widget-content {
+      font-size: var(--body-font-size);
+      .widget-bg {
+        font-size: inherit;
+        .widget-icon {
+          font-size: inherit;
+          i {
+            font-size: 300%;
+          }
+        }
+        .widget-info {
+          .widget-title {
+            font-size: 140%;
+          }
+          .widget-category {
+            font-size: 100%;
+          }
+          .card-category {
+            font-size: 100%;
+          }
+        }
+      }
+    }
+  }
+  /* Play BOard*/
+  .dashboard-page {
+    font-size: var(--body-font-size);
+    .change-event-item {
+      font-size: 100%;
+    }
+  }
+}
+// Small devices (landscape phones)
+@media only screen and (min-width: 575px) and (max-width: 767px) {}
+// Medium devices (tablets)
+@media only screen and (min-width: 767px) and (max-width: 991px) {}
+// Large devices (desktops)
+@media only screen and (min-width: 991px) and (max-width: 1199px) {}
+// X-Large devices (large desktops)
+@media only screen and (min-width: 1199px) and (max-width: 1399px) {}
+// XX-Large devices (larger desktops)
+@media only screen and (min-width: 1399px) {
+  .fullscreen-mode {
+    .leaderboard-title-bg.golf-game-leaderboard-title {
+      .main-title {
+        font-weight: var(--leaderboard-main-title-font-weight) !important;
+        font-size: var(--leaderboard-main-title-font-size);
+      }
+      /* TODO(mdc-migration): The following rule targets internal classes of select that may no longer apply for the MDC version.*/
+      .mat-mdc-select-value-text {
+        font-weight: var(--leaderboard-main-title-font-weight) !important;
+        font-size: var(--leaderboard-main-title-font-size);
+      }
+      .leaderboard-list {
+        font-size: var(--leaderboard-main-title-font-size);
+        .leaderboard-event-name {
+          font-weight: var(--leaderboard-main-title-font-weight) !important;
+          font-size: var(--leaderboard-main-title-font-size);
+        }
+        .caret-icon {
+          font-size: 70%;
+        }
+      }
+    }
+    .golf-game-leaderboard-info-wrapper {
+      .leaderboard-details-info {
+        font-weight: var(--leaderboard-details-title-font-weight);
+        font-size: var(--leaderboard-details-title-font-size);
+      }
+    }
+    .ptable {
+      .p-datatable-thead {
+        .golf-game-leader-board-row {
+          th {
+            font-size: var(--leaderboard-header-title-font-size);
+          }
+        }
+        .golf-game-leader-board-row.sub-title {
+          th {
+            font-weight: var(--leaderboard-table-header-title-font-weight);
+            font-size: var(--leaderboard-header-title-font-size);
+          }
+        }
+      }
+      .p-datatable-tbody {
+        .golf-game-leader-board-row-values,
+        .golf-game-leader-board-row-values.no-results-found {
+          td {
+            font-weight: var(--leaderboard-table-column-values-font-weight);
+            font-size: var(--leaderboard-column-values-font-size);
+          }
+        }
+      }
+    }
+  }
+}
+.feedback-wrapper {
+  font-size: var(--body-font-size);
+  .feedback-fields-wrapper {
+    font-size: var(--body-font-size);
+    .feedback-container {
+      font-size: var(--body-font-size);
+      .feedback-title {
+        font-size: 120%;
+      }
+      .feedback-title-info {
+        font-size: 140%;
+      }
+      .star-rating {
+        font-size: var(--body-font-size);
+        .default-star {
+          font-size: 400%;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,107 @@
+{
+  "result": {
+    "industries": [{
+        "enterprise_type": "Airports",
+        "industry_icon": "icons-airports",
+        "industry_color": "#054561",
+        "enterpriseName": ""
+      },
+      {
+        "enterprise_type": "Parking Lots",
+        "industry_icon": "icons-parking-lots",
+        "industry_color": "#C51789",
+        "enterpriseName": ""
+      },
+      {
+        "enterprise_type": "Temple Towns",
+        "industry_icon": "icon icons-temples",
+        "industry_color": "#054561"
+      },
+      {
+        "enterprise_type": "Aquariums",
+        "industry_icon": " icons-aquariums",
+        "industry_color": "#06723f",
+        "enterpriseName": ""
+      },
+      {
+        "enterprise_type": "Convention Centers",
+        "industry_icon": "icons-convention-centers",
+        "industry_color": "#e62424"
+      },
+      {
+        "enterprise_type": "Educational Facilities",
+        "industry_icon": "icons-education",
+        "industry_color": "#2d1394"
+      },
+      {
+        "enterprise_type": "Medical Facilities",
+        "industry_icon": "icons-medical-facilities",
+        "industry_color": "#e32869"
+      },
+      {
+        "enterprise_type": "Museums",
+        "industry_icon": "icons-museums",
+        "industry_color": "#96115e",
+        "enterpriseName": ""
+      },
+      {
+        "enterprise_type": "Corporates",
+        "industry_icon": "icons-office-spaces",
+        "industry_color": "#f1c40f",
+        "enterpriseName": ""
+      },
+      {
+        "enterprise_type": "Railway Stations",
+        "industry_icon": "icons-railwaystations",
+        "industry_color": "#6e5c08",
+        "enterpriseName": ""
+      },
+      {
+        "enterprise_type": "Warehouses",
+        "industry_icon": "icons-warehouses",
+        "industry_color": "#ec8f14",
+        "enterpriseName": ""
+      },
+      {
+        "enterprise_type": "Public Parks",
+        "industry_icon": "icons-public-parks",
+        "industry_color": "#0cbd94"
+      },
+      {
+        "enterprise_type": "Resorts",
+        "industry_icon": "icons-resorts",
+        "industry_color": "#ee0b44"
+      },
+      {
+        "enterprise_type": "Shopping Malls",
+        "industry_icon": "icons-shopping-malls",
+        "industry_color": "#6a4de0"
+      },
+      {
+        "enterprise_type": "Theme Parks",
+        "industry_icon": "icons-theme-parks",
+        "industry_color": "#26a74c"
+      },
+      {
+        "enterprise_type": "Wildlife Parks",
+        "industry_icon": "icons-zoo",
+        "industry_color": "#bd0c0c"
+      },
+      {
+        "enterprise_type": "Clubs",
+        "industry_icon": "icons-zoo",
+        "industry_color": "#bd500c"
+      },
+       {
+        "enterprise_type": "Associations",
+        "industry_icon": "icons-zoo",
+        "industry_color": "#0c97bd"
+      },
+      {
+       "enterprise_type": "Alumni Associations",
+       "industry_icon": "icons-zoo",
+       "industry_color": "#a2bd0c"
+     }
+    ]
+  }
+}

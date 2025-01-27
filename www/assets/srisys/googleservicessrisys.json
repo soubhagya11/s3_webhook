@@ -1,0 +1,227 @@
+{
+  "project_info": {
+    "project_number": "146792283192",
+    "firebase_url": "https://eagle-core-43ec2.firebaseio.com",
+    "project_id": "eagle-core-43ec2",
+    "storage_bucket": "eagle-core-43ec2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:146792283192:android:d53a8f1322582f7ad8facd",
+        "android_client_info": {
+          "package_name": "com.pigeontech.zicom"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "146792283192-i54u0qdf60h8ut2c3jqerig6j82l86ra.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC1VWaWL9XxQpg7_0fv-6yD8HwCQ2bexFI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "146792283192-i54u0qdf60h8ut2c3jqerig6j82l86ra.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "146792283192-u28nbgfrco274vbtodivrigoh26bf8bj.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.srisys.projecteagledemo"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:146792283192:android:c309b699599dec24d8facd",
+        "android_client_info": {
+          "package_name": "com.projecteagle"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "146792283192-i54u0qdf60h8ut2c3jqerig6j82l86ra.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC1VWaWL9XxQpg7_0fv-6yD8HwCQ2bexFI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "146792283192-i54u0qdf60h8ut2c3jqerig6j82l86ra.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "146792283192-u28nbgfrco274vbtodivrigoh26bf8bj.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.srisys.projecteagledemo"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:146792283192:android:b63a0094de918b5c",
+        "android_client_info": {
+          "package_name": "com.srisys.collisionconf"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "146792283192-i54u0qdf60h8ut2c3jqerig6j82l86ra.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC1VWaWL9XxQpg7_0fv-6yD8HwCQ2bexFI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "146792283192-i54u0qdf60h8ut2c3jqerig6j82l86ra.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "146792283192-u28nbgfrco274vbtodivrigoh26bf8bj.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.srisys.projecteagledemo"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:146792283192:android:9fe38ab4105d0225",
+        "android_client_info": {
+          "package_name": "com.srisys.eagle"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "146792283192-i54u0qdf60h8ut2c3jqerig6j82l86ra.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC1VWaWL9XxQpg7_0fv-6yD8HwCQ2bexFI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "146792283192-i54u0qdf60h8ut2c3jqerig6j82l86ra.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "146792283192-u28nbgfrco274vbtodivrigoh26bf8bj.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.srisys.projecteagledemo"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:146792283192:android:94816513d9e560d7d8facd",
+        "android_client_info": {
+          "package_name": "com.srisys.projecteagledemo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "146792283192-i54u0qdf60h8ut2c3jqerig6j82l86ra.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC1VWaWL9XxQpg7_0fv-6yD8HwCQ2bexFI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "146792283192-i54u0qdf60h8ut2c3jqerig6j82l86ra.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "146792283192-u28nbgfrco274vbtodivrigoh26bf8bj.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.srisys.projecteagledemo"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:146792283192:android:09d12bffd23d7ace",
+        "android_client_info": {
+          "package_name": "com.srisys.srimob"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "146792283192-i54u0qdf60h8ut2c3jqerig6j82l86ra.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC1VWaWL9XxQpg7_0fv-6yD8HwCQ2bexFI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "146792283192-i54u0qdf60h8ut2c3jqerig6j82l86ra.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "146792283192-u28nbgfrco274vbtodivrigoh26bf8bj.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.srisys.projecteagledemo"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

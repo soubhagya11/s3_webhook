@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "538431108460",
+    "firebase_url": "https://eagle-core-15457.firebaseio.com",
+    "project_id": "eagle-core-15457",
+    "storage_bucket": "eagle-core-15457.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:538431108460:android:d8b75d9f563fe18829ef49",
+        "android_client_info": {
+          "package_name": "com.pigeontech.demo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "538431108460-771lb539kt8tqao1hbfh7a7bpa7i40ju.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD7ZFXyU_hJev3z6VkFnSl8VFjDJNANNZA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "538431108460-771lb539kt8tqao1hbfh7a7bpa7i40ju.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

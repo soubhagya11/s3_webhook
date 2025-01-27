@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+
+<head>
+	<title>PigeonMobile Demo</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<script src="../bundle.js"></script>
+	<!-- <link rel="stylesheet" href="https://unpkg.com/leaflet@1.2.0/dist/leaflet.css" integrity="sha512-M2wvCLH6DSRazYeZRIm1JnYyh22purTM+FDB5CsyxtQJYeKq83arPe5wgbNmcFXGqiSH2XR8dT/fJISVA1r/zQ==" crossorigin=""/> -->
+	<!--script src="https://unpkg.com/leaflet@1.2.0/dist/leaflet.js" integrity="sha512-lInM/apFSqyy1o6s89K4iQUKg6ppXEgsVxT35HbzUupEVRh2Eu9Wdl4tHj7dZO0s1uvplcYGmt3498TtHq+log=="crossorigin="">
+	</script-->
+	<!-- <link rel="stylesheet" href="../dist/leaflet-routing-machine.css" /> -->
+	<!-- <link rel="stylesheet" href="../assets/css/style.css" /> -->
+	<!-- <link rel="stylesheet" href="../dist/leaflet.css" /> -->
+	<!-- <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.16/themes/base/jquery-ui.css" /> -->
+	<!-- <link rel="stylesheet" href="../dist/MarkerCluster.css" /> -->
+	<!-- <link rel="stylesheet" href="../dist/MarkerCluster.Default.css" /> -->
+	<!-- <link rel="stylesheet" href="../dist/leaflet-search.css" /> -->
+	<!-- <link rel="stylesheet" href="../dist/leaflet-search.mobile.css" /> -->
+	<!-- <link rel="stylesheet" href="../dist/leaflet.awesome-markers.css" /> -->
+	<link rel="stylesheet" href="../assets/font-awesome/css/all.min.css">
+	<link rel="stylesheet" href="../assets/font-awesome/css/fontawesome.min.css">
+	<!-- <link rel="stylesheet" href="../dist/leaflet.contextmenu.css"/> -->
+	<!-- <link rel="stylesheet" href="../dist/leaflet-beautify-marker-icon.css"/> -->
+	<!-- <link rel="stylesheet" href="https://unpkg.com/leaflet.fullscreen@1.4.3/Control.FullScreen.css"/> -->
+	<!-- <link rel="stylesheet" href="../dist/L.Control.Locate.min.css"/> -->
+	<link rel="stylesheet" href="../dist/style.min.css" />
+	<script src="../dist/L.Control.Locate.js"></script>
+	<!-- <script src="https://unpkg.com/leaflet.fullscreen@1.4.3/Control.FullScreen.js"></script> -->
+	<script src="../dist/Control.FullScreen.js"></script>
+	<script src="../dist/leaflet.awesome-markers.js"></script>
+	<script src="../dist/leaflet.markercluster-src.js"></script>
+	<script src="../dist/leaflet-search.js"></script>
+	<!--script src="dist/leaflet-routing-machine.js"></script-->
+	<script src="../dist/lrm-graphhopper-srisys-1.2.0.js"></script>
+	<script src="../dist/Leaflet.ImageOverlay.Rotated.js"></script>
+	<!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script> -->
+	<script src="../dist/jquery.min.js"></script>
+	<!-- <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+	 crossorigin="anonymous"/>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+	 crossorigin="anonymous"></script> -->
+
+	<!-- <link href="../assets/bootstrap/css/bootstrap.min.css" rel="stylesheet"/> -->
+	<!-- <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/3.2.1/css/font-awesome.min.css" media="all" rel="stylesheet" type="text/css"> -->
+	<script src="../assets/bootstrap/js/bootstrap.min.js"></script>
+
+	<script type="text/javascript" src="../assets/js/data.json"></script>
+	<script src="../assets/js/popup.js"></script>
+	<!-- <script src="https://unpkg.com/leaflet.markercluster.layersupport@1.0.5/dist/leaflet.markercluster.layersupport-src.js"></script> -->
+	<script src="../dist/leaflet.markercluster.layersupport-src.js"></script>
+	<script src="../dist/leaflet-beautify-marker-icon.js"></script>
+	<script src="../dist/leaflet-bing-layer.js"></script>
+	<script src="../dist/leaflet.contextmenu.js"></script>
+	<script src="../dist/Leaflet.Control.Custom.js"></script>
+	<script src="../indnavutils.js"></script>
+	<script src="../L.LayerGroup.GeoArea.js"></script>
+	<script src="../dist/leaflet-heat.js"></script>
+	<script src="../dist/FunctionButton.js"></script>
+	<script src="../dist/L.Polyline.SnakeAnim.js"></script>
+	<!-- <script src="https://momentjs.com/downloads/moment-with-locales.js"></script> -->
+	<script src="../dist/moment-with-locales.js"></script>
+	<!--script type="text/javascript" src="dist/Leaflet.Icon.Glyph.js"></script-->
+	<!-- <link rel="stylesheet" href="../assets/css/flaticon.css" /> -->
+	<link rel="stylesheet" href="../assets/css/styles.css" />
+	<link rel="stylesheet" href="../assets/css/animate.css">
+	<link rel="stylesheet" href="../dist/leaflet.bookmarks.css" />
+	<script src="../dist/Leaflet.Bookmarks.js"></script>
+	<style>
+		/* Popup box BEGIN */
+		/* #confirm {
+			display: none;
+			background-color: rgb(255, 255, 255);
+			border: 1px solid rgb(170, 170, 170);
+			position: fixed;
+			width: 250px;
+			left: 50%;
+			margin-left: -100px;
+			padding: 6px 8px 8px;
+			box-sizing: border-box;
+			text-align: center;
+			z-index: 9999;
+			top: 10%;
+			border-radius: 6px;
+		} */
+		#confirm button {
+			background-color: rgb(182, 229, 72);
+			display: inline-block;
+			border-radius: 5px;
+			border: 1px solid rgb(170, 170, 170);
+			padding: 5px;
+			text-align: center;
+			width: 80px;
+			cursor: pointer;
+		}
+
+		#confirm .message {
+			text-align: left;
+			max-height: 350px;
+			overflow-y: auto;
+			margin-top: 10px;
+		}
+
+		#instruction {
+			display: none;
+			background-color: rgb(255, 255, 255);
+			border: 1px solid rgb(170, 170, 170);
+			position: fixed;
+			width: 250px;
+			left: 0;
+			right: 0;
+			margin-left: -100px;
+			padding: 6px 20px 8px;
+			box-sizing: border-box;
+			text-align: center;
+			z-index: 9999;
+			top: 46px;
+			border-radius: 6px;
+			margin: 0 auto;
+		}
+
+		#instruction .instrdata {
+			text-align: left;
+			max-height: 350px;
+			overflow-y: auto;
+			margin-top: 10px;
+			margin-bottom: 10px;
+		}
+
+		.floor-info {
+			position: absolute;
+			text-align: right;
+			color: red;
+			right: 7px;
+			background: #fff;
+			padding: 1px 5px;
+			bottom: -11px;
+			border: 1px solid #d0d0d0;
+			border-radius: 4px;
+		}
+
+		ul.facilities {
+			margin: 0;
+			padding: 0px;
+			list-style-type: none;
+		}
+
+		ul.facilities li {
+			line-height: 30px;
+			padding: 3px 0;
+		}
+
+		ul.facilities li a {
+			color: #000000;
+		}
+
+		ul.facilities li a:hover {
+			text-decoration: none;
+		}
+
+		ul.facilities li i {
+			width: auto;
+			position: relative;
+			padding: 4px 4px;
+			font-size: 2em;
+			background: #d0d0d0;
+			border-radius: 50%;
+			margin-right: 10px;
+			display: inline-flex;
+			vertical-align: middle;
+
+		}
+
+		#confirm a.facilities-close-btn {
+			color: #000;
+			top: 1px;
+			right: 6px;
+		}
+
+		#bottomSheet {
+			display: none;
+			background-color: rgb(255, 255, 255);
+			border: 0px solid rgb(170, 170, 170);
+			box-shadow: 0 -2px 2px rgba(0, 0, 0, 0.3);
+			position: absolute;
+			border-radius: 10px;
+			width: 80%;
+			box-sizing: border-box;
+			text-align: center;
+			z-index: 9999;
+			margin: auto;
+			padding: 3px 10px;
+		}
+		#bottomSheet.pcenter {
+			left: 0;
+			right: 0;
+			top: 0;
+			bottom: 0;
+			-webkit-animation-name: fadeInUp;
+    		animation-name: fadeInUp;
+		}
+		#bottomSheet.pbottom {
+			top: auto;
+			left: 0;
+			right: 0;
+			bottom: 0;
+			-webkit-animation-name: fadeInUp;
+    		animation-name: fadeInUp;
+		}
+		#bottomSheet.pleft {
+			top: 0;
+			left: 0;
+			right: auto;
+			bottom: 0;
+			-webkit-animation-name: fadeInLeft;
+    		animation-name: fadeInLeft;
+		}
+		#bottomSheet.pright {
+			top: 0;
+			left: auto;
+			right: 0;
+			bottom: 0;
+			-webkit-animation-name: fadeInRight;
+    		animation-name: fadeInRight;
+		}
+		#bottomSheet.ptop {
+			top: 10px;
+			left: 0;
+			right: 0;
+			bottom: auto;
+			-webkit-animation-name: fadeInDown;
+    		animation-name: fadeInDown;
+		}
+
+
+		.checked {
+			color: green;
+		}
+
+		.toggle-content {
+			display: none;
+			height: 0;
+			overflow: hidden;
+			transition: height 350ms ease-in-out;
+		}
+
+		.toggle-content.is-visible {
+			display: block;
+			height: 50vh;
+			border-top-left-radius: 10px;
+			border-top-right-radius: 10px;
+			position: absolute;
+			bottom: 0;
+			z-index: 9999;
+			background: #ffffff;
+			width: 100%;
+			overflow-y: auto;
+			box-shadow: 0 -2px 2px rgba(0, 0, 0, 0.3);
+		}
+
+		.instructions-list {
+			list-style-type: none;
+			margin: 34px 10px 10px;
+			padding: 0;
+			overflow-y: auto;
+			position: relative;
+		}
+
+		.instructions-list li {
+			padding: 10px 0px;
+			border-bottom: 1px solid #dedede;
+		}
+
+		.instructions-list li:last-child {
+			border-bottom: 0px solid #dedede;
+		}
+
+		.distance {
+			float: right;
+		}
+
+		.instructions-btn-c {
+			position: relative;
+		}
+
+		.leaflet-container a.toggle-close {
+			float: right;
+			color: #fff;
+			background: #000;
+			border-radius: 50%;
+			font-size: 14px;
+			position: fixed;
+			z-index: 9999;
+			right: 2%;
+			height: 20px;
+			width: 20px;
+			text-align: center;
+			vertical-align: middle;
+			margin-top: 8px;
+		}
+
+		.tail-container {
+			position: absolute;
+			content: "";
+			width: 0;
+			height: 0;
+			border-style: solid;
+			border-width: 0px 0px 12px 14px;
+			border-color: transparent transparent transparent #ffcc33;
+			top: -1px;
+			right: -11px;
+			border-top-right-radius: 4px;
+		}
+		#assetImg span:before {
+			color: #ffffff;
+			padding: 2px;
+		}
+
+		@media screen and (min-width: 240px) and (max-width: 425px) {
+			.leaflet-container a.toggle-close {
+				right: 4%;
+			}
+			#bottomSheet {
+				height: 76px;
+			}
+		}
+		@media only screen and (min-width: 375px) and (max-width: 575px) {
+			#bottomSheet {
+				height: 76px;
+			}
+		}
+		@media only screen and (min-width: 575px) and (max-width: 767px) {
+			#bottomSheet {
+				height: 74px;
+				width: 70%;
+			}
+		}
+		@media only screen and (min-width: 767px) and (max-width: 991px) {
+			#bottomSheet {
+				height: 74px;
+				width: 40%;
+			}
+		}
+		@media only screen and (min-width: 991px) and (max-width: 1199px) {
+			#bottomSheet {
+				height: 74px;
+				width: 20%;
+			}
+		}
+		@media only screen and (min-width: 1199px) and (max-width: 1399px) {
+			#bottomSheet {
+				height: 74px;
+				width: 20%;
+			}
+		}
+		@media only screen and (min-width: 1399px) {
+			#bottomSheet {
+				height: 74px;
+				width: 20%;
+			}
+		}
+	</style>
+</head>
+
+<body onload="onloadInit()">
+	<div id="mapid" class="no-header" style="height: 100vh">
+		<div id="mapspinnerbackgroundId" class="spinnerloadingbackground">
+			<div id="mapspinnerId" class="rotate dotted colored">
+			</div>
+		</div>
+		<div id="confirm">
+			<a class="leaflet-popup-close-button facilities-close-btn yes" href="#close">×</a>
+			<div class="message" id="bar"></div>
+			<!-- <button class="yes">OK</button> -->
+		</div>
+		<div id="current-location-popup" class="current-location-popup">
+			<span _ngcontent-tii-c489="" class="tail-container"></span>
+			<div class="location-popup-message" id="curLocation"></div>
+		</div>
+		<div id="instruction">
+			<div class='previous' onclick="instruction('previous')"><i class="fa fa-chevron-left"></i></div>
+			<div class="instrdata"></div>
+			<div class='next' onclick="instruction('next')"><i class="fa fa-chevron-right"></i></div>
+			<div class="floor-info" id="floor"></div>
+		</div>
+		<div class="toggle-content animated fadeInUp" id="instructionDetails"></div>
+		<div id="bottomSheet" class="animated">
+			<div style="display:flex;align-items: center; height: 100%;">				
+				<div style="display: flex;width: 93%;flex-flow: row; column-gap: 5px;">	
+					<div id="assetImg" class="message" style="flex: 1;"></div>
+					<div style="display:flex;flex: auto;flex-flow: column;align-items: flex-start;row-gap: 4px;width: 93%;">						
+						<div id="assetDetails"></div>
+						<div id="assetDesc" style="display:flex;align-items:flex-start;"></div>
+						<div style="display:flex;column-gap: 5px;">			
+							<div id="navButton" style="display: flex;"></div>
+							<div id="viewButton" style="display: flex;"></div>
+						</div>
+					</div> 	
+				</div>
+				<div id="bottomBoxClose" class="close-icon" style="font-size: 1.5em" onclick="bottomboxcloseicon();"><i class="fa fa-times"></i>
+				</div>
+			</div>
+		</div>
+		<!-- <input type="button" value="Click Me" onclick="functionAlert();" /> -->
+	</div>
+	<script src="pigeonscript.js">
+	</script>
+</body>
+<!-- <body onclick="setup()">
+		<script src="../../js/userActive.js">
+		</script>
+	</body> -->
+
+</html>

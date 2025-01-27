@@ -1,0 +1,11 @@
+{
+  "enterprise_id": "",
+  "enterprise_name": "vhizle",
+  "short_name": "vhizle",
+  "S3URL": "https://srisys-allapps-nonprod-assets.s3.ap-south-1.amazonaws.com/UAT/",
+  "load_landing_page_without_login": true,
+  "is_guest_user_link_enable": false,
+  "is_sync_enable": false,
+  "is_registration_link_enable": true,
+  "is_all_enterprises_link_enable": false
+}

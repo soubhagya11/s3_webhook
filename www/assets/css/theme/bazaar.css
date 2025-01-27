@@ -1,0 +1,35 @@
+body {
+    --background: #ffffff;
+    --body-bg-color: #ffffff;
+    --body-text-color: #000000;
+    --body-text-color-rgb: 0, 0, 0;
+    --header-bg-color: #836568;
+    --header-bg-color-rgb: 131, 101, 104;
+    --header-text-color: #ffffff;  
+    --header-menu-link-color: #ffffff;
+    --footer-bg-color:#836568;
+    --footer-text-color: #ffffff;
+    --sidebar-bg-color: #836568;
+    --sidebar-bg-color-rgb: 131, 101, 104;
+    --sidebar-logo-bgcolor: #836568;
+    --sidebar-menu-link-color: #ffffff;
+    --sidebar-menu-link-color-rgb: 0, 0, 0;
+    --sidebar-menu-link-active-color: #000000;
+    --sidebar-menu-link-active-bg-color: #ffffff;
+    --sidebar-menu-link-active-bg-color-rgb: 255, 255, 255;
+    --table-header-bg-color: #836568;
+    --table-header-bg-color-rgb: 131, 101, 104;
+    --table-header-text-color: #ffffff;
+    --tab-header-bg-color: #836568;
+    --tab-header-bg-color-rgb: 131, 101, 104;
+    --tab-header-text-color: #ffffff;
+    --accordion-header-bg-color: #836568;
+    --accordion-header-text-color: #ffffff;
+    --accordion_header-text-color: #ffffff;
+    --button-primary-bg-color: #836568;
+    --button-primary-bg-color-rgb: 148, 120, 98;
+    --button-primary-text-color: #ffffff;
+    --button-secondary-bg-color: #f44336;
+    --button-secondary-bg-color-rgb: 244, 67, 54;
+    --button-secondary-text-color: #ffffff;
+}

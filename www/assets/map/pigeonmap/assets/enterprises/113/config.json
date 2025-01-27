@@ -1,0 +1,452 @@
+{
+    "applicationColor": "#f04e23",
+    "backgroundColor": "#ffffff",
+    "buttonBackgroundColor": "#ffcc33",
+    "buttonTextColor": "#ffffff",
+    "drawerPosition": "Left",
+    "drawerTopImage": "fossilrim-logo.png",
+    "enterprise": {
+        "enterpriseId": 25,
+        "enterpriseName": "Fossil Rim"
+    },
+    "enterpriseTopImageFileName": "zebra.jpg",
+    "enterpriseTopImageFilePath": "assets/enterprises/25",
+    "footerMenuInfo": {
+        "displayMenuName": false,
+        "backgroundColor": "#f04e23",
+        "iconDefaultColor": "#ffffff",
+        "iconHighlightColor": "#ffcc33"
+    },
+    "generalSettings": {
+        "groupLocateSelectionLimit": 40,
+        "isCityEnabled": true,
+        "listType": "Grid",
+        "showFleetName": false,
+        "showGridName": true
+    },
+    "homeScreen": {
+        "shortcutFilter": {
+            "showSearch": false,
+            "includeSpecial": false,
+            "enableFunfact": false,
+            "imageFilePath": "assets/enterprises/25",
+            "imageName": "Our-Animals-pic-cheetah-3.jpg",
+            "fleetType": "",
+            "actionType": "",
+            "fleetTypes": [],
+            "homeTopImageFile": "FossilRimLogo-190.png",
+            "exhibitsImageFile": "calendar-with-spring-binder-and-date-blocks.svg",
+            "zooMapImageFile": "theater-masks-solid.svg",
+            "diningImageFile": "emergency.svg",
+            "experiencesImageFile": "road-perspective.svg",
+            "footerHomeImageFile": "home.svg"
+        },
+        "shortcutName": "Home",
+        "sameOnKiosk": true,
+        "shortcutScreen": 70,
+        "shortcutScreenName": "homefossil"
+    },
+    "isEnabled": true,
+    "mapSettings": {
+        "distanceUnits": "Feet - Miles",
+        "currentLocationSensors": "Auto",
+        "clusterLevelZoom": 15,
+        "searchMap": "fleetname",
+        "kioskMapOrientation": false,
+        "degreeImageUrl": "",
+        "isFloordetailsEnabled": false,
+        "radiusMeters": 200,
+        "showFleets": 6,
+        "buildingOrientation": "Landscape",
+        "mapViewLayer": "Bing",
+        "isSpecialFleetsEnabled": false
+    },
+    "screens": {
+        "bluetoothScreen": {
+            "isScreenEnabled": false
+        },
+        "loginScreen": {
+            "isScreenEnabled": false,
+            "isTourEnabled": false,
+            "isFunfactsEnabled": true,
+            "tourImage": [
+                {
+                    "thumbnailPath": "assets/enterprises/3/tourImages/vedic logo/1.jpg",
+                    "tourCreatedAt": "2018-09-19T10:17:10.259Z",
+                    "tourFilePath": "assets/enterprises/4/tourImages/vedic logo.png",
+                    "tourFileName": "vedic logo.png",
+                    "_id": "5ba222268f51f5122f76b580"
+                },
+                {
+                    "thumbnailPath": "assets/enterprises/3/tourImages/index/1.jpg",
+                    "tourCreatedAt": "2018-09-19T10:17:10.259Z",
+                    "tourFilePath": "assets/enterprises/4/tourImages/index.png",
+                    "tourFileName": "index.png",
+                    "_id": "5ba222268f51f5122f76b57f"
+                },
+                {
+                    "tourFileName": "blazer.jpg",
+                    "tourFilePath": "assets/enterprises/3/tourImages/blazer.jpg",
+                    "tourCreatedAt": "2018-08-24T10:31:12.198Z",
+                    "thumbnailPath": "assets/enterprises/13/tourImages/blazer/1.jpg",
+                    "_id": "5b7fde7043248d474f0b6fab"
+                }
+            ]
+        },
+        "onBoardingScreen": {
+            "isScreenEnabled": false,
+            "boardImage": []
+        }
+    },
+    "textColor": "#ffffff",
+    "kioskScreen": {
+        "shortcutScreen": null,
+        "shortcutScreenName": "",
+        "shortcutName": "Home",
+        "shortcutFilter": {
+            "fleetType": "",
+            "showSearch": false,
+            "includeSpecial": false,
+            "enableFunfact": false,
+            "actionType": "",
+            "imageName": "",
+            "imageFilePath": "",
+            "fleetTypes": []
+        }
+    },
+    "userRestrictions": {
+        "isUserRestricted": false
+    },
+    "enableScreensaver": false,
+    "screensaverDispayDeviceType": [
+        "Non Kiosk Devices"
+    ],
+    "isFollowEnabled": false,
+    "isRatingEnabled": false,
+    "isLocateEnabled": true,
+    "isDirectionsEnabled": false,
+    "isDescriptionEnabled": true,
+    "isSimilarEnabled": true,
+    "isContactdetailsEnabled": false,
+    "isheaderLogoEnabled": false,
+    "timeToEnableScreenSaver": 10000,
+    "timeGapBetweenScreens": 3000,
+    "drawerMenu": [
+        {
+            "shortcutImageName": "calendar-with-spring-binder-and-date-blocks.svg",
+            "shortcutImageFilePath": "assets/enterprises/25/UIScreens/461",
+            "shortcutName": "Opportunities",
+            "languages" :{
+                "en": "Opportunities",
+                "sp": "Eventos"
+            },
+            "menuType": "Drawer",
+            "shortcutScreen": 7,
+            "shortcutScreenName": "events",
+            "displaySequence": 5,
+            "deviceType": "All",
+            "isDeleted": false,
+            "isEnabled": true,
+            "isLoginRequired": false,
+            "fleetTypes": [],
+            "shortcutFilter": {
+                "fleetType": "All",
+                "showSearch": false,
+                "includeSpecial": false,
+                "enableFunfact": false,
+                "actionType": "Path",
+                "imageName": "",
+                "imageFilePath": "",
+                "checkForUpdates": false,
+                "showLanguages": false
+            }
+        },
+        {
+            "shortcutImageName": "four-black-squares.svg",
+            "shortcutImageFilePath": "assets/enterprises/25/UIScreens/462",
+            "shortcutName": "Points of Interest",
+            "languages": {
+                "en": "Points of Interest",
+                "sp": "Pois"
+            },
+            "menuType": "Drawer",
+            "shortcutScreen": 5,
+            "shortcutScreenName": "assets",
+            "displaySequence": 4,
+            "deviceType": "All",
+            "isDeleted": false,
+            "isEnabled": true,
+            "isLoginRequired": false,
+            "fleetTypes": [],
+            "shortcutFilter": {
+                "fleetType": "All",
+                "showSearch": false,
+                "includeSpecial": false,
+                "enableFunfact": false,
+                "actionType": "",
+                "imageName": "",
+                "imageFilePath": "",
+                "checkForUpdates": false,
+                "showLanguages": false
+            }
+        },
+        {
+            "shortcutImageName": "map-marker.svg",
+            "shortcutImageFilePath": "assets/enterprises/25/UIScreens/463",
+            "shortcutName": "Map",
+            "languages" :{
+                "en": "Map",
+                "sp": "Mapa"
+            },
+            "menuType": "Drawer",
+            "shortcutScreen": 6,
+            "shortcutScreenName": "map",
+            "displaySequence": 4,
+            "deviceType": "All",
+            "isDeleted": false,
+            "isEnabled": true,
+            "isLoginRequired": false,
+            "fleetTypes": [],
+            "shortcutFilter": {
+                "fleetType": "All",
+                "showSearch": false,
+                "includeSpecial": false,
+                "enableFunfact": false,
+                "actionType": "Path",
+                "imageName": "",
+                "imageFilePath": "",
+                "checkForUpdates": false,
+                "showLanguages": false
+            }
+        },
+        {
+            "shortcutImageName": "binoculars-solid.svg",
+            "shortcutImageFilePath": "assets/enterprises/25/UIScreens/464",
+            "shortcutName": "Animal Spotlight",
+            "languages" :{
+                "en": "Animal Spotlight",
+                "sp": "Foco de animales"
+            },
+            "menuType": "Drawer",
+            "shortcutScreen": 69,
+            "shortcutScreenName": "facedetectioncapture",
+            "displaySequence": 1,
+            "deviceType": "All",
+            "isDeleted": false,
+            "isEnabled": true,
+            "isLoginRequired": false,
+            "fleetTypes": [],
+            "shortcutFilter": {
+                "showSearch": false,
+                "includeSpecial": false,
+                "enableFunfact": false,
+                "imageName": "",
+                "imageFilePath": "",
+                "checkForUpdates": false,
+                "showLanguages": false
+            }
+        },
+        {
+            "shortcutImageName": "ticket.svg",
+            "shortcutImageFilePath": "assets/enterprises/25/UIScreens/466",
+            "shortcutName": "Savings",
+            "languages" :{
+                "en": "Savings",
+                "sp": "Cupones"
+            },
+            "menuType": "Drawer",
+            "shortcutScreen": 67,
+            "shortcutScreenName": "coupons",
+            "displaySequence": 6,
+            "deviceType": "All",
+            "isDeleted": false,
+            "isEnabled": true,
+            "isLoginRequired": false,
+            "fleetTypes": [],
+            "shortcutFilter": {
+                "showSearch": false,
+                "includeSpecial": false,
+                "enableFunfact": false,
+                "imageName": "",
+                "imageFilePath": "",
+                "checkForUpdates": false,
+                "showLanguages": false
+            }
+        },
+        {
+            "shortcutImageName": "translation.svg",
+            "shortcutImageFilePath": "assets/enterprises/25/UIScreens/468",
+            "shortcutName": "Languages",
+            "languages" :{
+                "en": "Languages",
+                "sp": "Idiomas"
+            },
+            "menuType": "Drawer",
+            "shortcutScreen": 48,
+            "shortcutScreenName": "languages",
+            "displaySequence": 7,
+            "deviceType": "All",
+            "isDeleted": false,
+            "isEnabled": true,
+            "isLoginRequired": false,
+            "fleetTypes": [],
+            "shortcutFilter": {
+                "showSearch": false,
+                "includeSpecial": false,
+                "enableFunfact": false,
+                "checkForUpdates": false,
+                "showLanguages": false,
+                "imageFilePath": "",
+                "imageName": ""
+            }
+        },
+        {
+            "shortcutImageName": "book-solid.svg",
+            "shortcutImageFilePath": "assets/enterprises/25/UIScreens/460",
+            "shortcutName": "Tutorial",
+            "languages" :{
+                "en": "Tutorial",
+                "sp": "Tutorial"
+            },
+            "menuType": "Drawer",
+            "shortcutScreen": 48,
+            "shortcutScreenName": "onboarding",
+            "displaySequence": 2,
+            "deviceType": "All",
+            "isDeleted": false,
+            "isEnabled": true,
+            "isLoginRequired": false,
+            "fleetTypes": [],
+            "shortcutFilter": {
+                "showSearch": false,
+                "includeSpecial": false,
+                "enableFunfact": false,
+                "checkForUpdates": false,
+                "showLanguages": false,
+                "imageFilePath": "",
+                "imageName": ""
+            }
+        },
+        {
+            "shortcutImageName": "book-paw-white.svg",
+            "shortcutImageFilePath": "assets/enterprises/25/UIScreens/460",
+            "shortcutName": "Learn More",
+            "languages": {
+                "en": "Learn More",
+                "sp": "aprende más"
+            },
+            "menuType": "Drawer",
+            "shortcutScreen": 5,
+            "shortcutScreenName": "learnmore",
+            "displaySequence": 3,
+            "deviceType": "All",
+            "isDeleted": false,
+            "isEnabled": true,
+            "isLoginRequired": false,
+            "fleetTypes": [],
+            "shortcutFilter": {
+                "fleetType": "All",
+                "showSearch": false,
+                "includeSpecial": false,
+                "enableFunfact": false,
+                "actionType": "",
+                "imageName": "",
+                "imageFilePath": "",
+                "checkForUpdates": false,
+                "showLanguages": false
+            }
+        }
+    
+    ],
+    "footerMenu": [
+        {
+            "shortcutImageName": "book-paw.svg",
+            "shortcutImageFilePath": "assets/enterprises/25/UIScreens/460",
+            "shortcutName": "Animal Library",
+            "menuType": "Footer",
+            "shortcutScreen": 52,
+            "shortcutScreenName": "animallibrary",
+            "displaySequence": 3,
+            "deviceType": "All",
+            "isDeleted": false,
+            "isEnabled": true,
+            "isLoginRequired": false,
+           
+            "shortcutFilter": {
+                "fleetType": "All",
+                "showSearch": false,
+                "includeSpecial": false,
+                "enableFunfact": false,
+                "actionType": "",
+                "imageName": "",
+                "imageFilePath": "",
+                "checkForUpdates": false,
+                "showLanguages": false
+            }
+        },
+        {
+            "shortcutFilter": {
+                "showSearch": false,
+                "includeSpecial": false,
+                "enableFunfact": false,
+                "imageFilePath": "assets/enterprises/25",
+                "imageName": "Our-Animals-pic-cheetah-3.jpg",
+                "fleetType": "",
+                "actionType": "",
+                "fleetTypes": [],
+                "homeTopImageFile": "FossilRimLogo-190.png",
+                "exhibitsImageFile": "calendar-with-spring-binder-and-date-blocks.svg",
+                "zooMapImageFile": "theater-masks-solid.svg",
+                "diningImageFile": "emergency.svg",
+                "experiencesImageFile": "road-perspective.svg",
+                "footerHomeImageFile": "home.svg"
+            },
+            "shortcutName": "Home",
+            "sameOnKiosk": true,
+            "shortcutScreen": 70,
+            "shortcutScreenName": "homefossil",
+            "displaySequence": 0,
+            "isDeleted": false,
+            "isEnabled": true,
+            "isLoginRequired": false,
+            "menuType": "Footer",
+            "shortcutImageFilePath": "assets/enterprises/25",
+            "shortcutImageName": "home.svg",
+            "deviceType": "All"
+        }
+    ],
+    "buildingCode": "FR0001",
+    "enterpriseLogo": "assets/enterprises/25/fossilrim-logo.png",
+    "topImage": "assets/enterprises/25/zebra.jpg",
+    "fleetCommonName": "Asset",
+    "analyticsTrackerId": null,
+    "languagesSupported": [
+        {
+            "description": "en",
+            "lookupName": "English (EN)",
+            "_id": 610
+        }
+    ],
+    "appTitle": "Pigeon",
+    "description": "Fossil Rim",
+    "enterpriseAddress": {
+        "addressLine1": "2299 County Road 2008",
+        "addressLine2": "",
+        "city": "Glen Rose",
+        "state": "Texas",
+        "ZIP": "76043",
+        "country": "United States",
+        "geoCoordinates": [
+            "-84.3945260000000",
+            "+39.3546660000000"
+        ]
+    },
+    "enterprisecontactDetails": {
+        "email": "info@fossilrim.org",
+        "workNumber": "513-298-1151",
+        "workNumberCountrycode": "+1 - Canada",
+        "workNumberExtn": null
+    },
+    "deals": [],
+    "activeHours": ""
+}

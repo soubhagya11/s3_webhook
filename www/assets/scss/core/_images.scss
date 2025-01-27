@@ -1,0 +1,10 @@
+.img-thumbnail{
+    border-radius: .25rem;
+}
+.img-raised{
+    @include shadow-big-image();
+}
+
+.rounded{
+    border-radius: $border-radius-large !important;
+}

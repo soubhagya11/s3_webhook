@@ -1,0 +1,101 @@
+@import "~@angular/material/prebuilt-themes/indigo-pink.css";
+@import "~@fortawesome/fontawesome-free/css/all.css";
+
+
+@import "core/variables";
+@import "core/mixins";
+@import "node_modules/bootstrap/scss/bootstrap";
+
+
+// Core Components
+@import "core/buttons";
+@import "core/checkboxes";
+@import "core/radios";
+@import "core/forms";
+@import "core/input-group";
+@import "core/images";
+@import "core/navbar";
+@import "core/alerts";
+@import "core/type";
+@import "core/tabs";
+@import "core/tooltip";
+// @import "core/popover";
+@import "core/dropdown";
+// @import "core/togglebutton";
+// @import "core/ripples";
+@import "core/footers";
+@import "core/sidebar-and-main-panel";
+// @import "core/fixed-plugin";
+@import "core/tables";
+@import "core/misc";
+
+@import "core/cards";
+@import "core/cards/card-stats";
+// @import "core/cards/card-profile";
+// @import "core/cards/card-plain";
+
+//plugin scss
+@import "core/plugins/animate";
+//  @import "core/plugins/chartist";
+// @import "core/plugins/perfect-scrollbar";
+
+@import "core/responsive";
+@import "../../assets/map/assets/css/styles.css";
+// @import "core/angular-modal.scss";
+
+// @import "core/custom.scss";
+
+// .owl-dt-container-buttons {
+//     button.owl-dt-control {
+//         &:first-child {
+//             @extend .btn-danger;
+//         }
+//         &:last-child {
+//             @extend .btn-primary;
+//         }
+//     }
+// }
+// .mat-mdc-button,
+// .mat-mdc-fab,
+// .mat-mdc-flat-button,
+// .mat-mdc-icon-button,
+// .mat-mdc-mini-fab,
+// .mat-mdc-raised-button,
+// .mat-mdc-stroked-button,
+// [class^="mat-"],
+// [class*=" mat-"],
+// .nav-link,
+// body,
+// .navbar-brand,
+// .dropdown-item,
+// .copyright {
+//     font-family: var(--ion-font-family), 'Open Sans', Helvetica, Arial, sans-serif;
+// }
+/* fallback */
+@font-face {
+    font-family: 'Material Icons';
+    font-style: normal;
+    font-weight: 400;
+    src: url(../fonts/material-icons.woff2) format('woff2');
+  }
+.material-icons {
+    font-family: 'Material Icons' !important;
+    font-weight: normal;
+    font-style: normal;
+    line-height: 1;
+    letter-spacing: normal;
+    text-transform: none;
+    display: inline-block;
+    white-space: nowrap;
+    word-wrap: normal;
+    direction: ltr;
+    -webkit-font-feature-settings: 'liga';
+    -webkit-font-smoothing: antialiased;
+  }
+.fa, .fas {
+  font-family: 'Font Awesome 5 Free' !important;
+  font-weight: 900;
+}
+[class^="icon-"], [class*=" icon-"], [class^="fa-icon-"], [class*=" fa-icon-"], [class*="filter-"] {
+  font-family: 'icomoon' !important;
+}

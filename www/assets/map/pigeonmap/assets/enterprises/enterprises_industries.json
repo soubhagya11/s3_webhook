@@ -1,0 +1,485 @@
+{
+    "Corporates": [
+        {
+            "enterprise_type": {
+                "lookup_id": 846,
+                "lookup_name": "CORPORATES"
+            },
+            "enterprise_icon": "srisys-logo.png",
+            "background_image": null,
+            "_id": 0,
+            "enterprise_name": "Pigeon Tech Inc",
+            "short_name": "Pigeon",
+            "enterprise_icon_file_path": "assets/enterprises/0"
+        },
+        {
+            "enterprise_type": {
+                "lookup_id": 846,
+                "lookup_name": "CORPORATE",
+                "lookup_display_name": "Corporate"
+            },
+            "enterprise_icon": "",
+            "background_image": null,
+            "_id": 101,
+            "enterprise_name": "POC - Zicom",
+            "short_name": "POC-Zicom",
+            "enterprise_icon_file_path": ""
+        },
+        {
+            "enterprise_type": {
+                "lookup_id": 846,
+                "lookup_name": "CORPORATE",
+                "lookup_display_name": "Corporate"
+            },
+            "enterprise_icon": "",
+            "background_image": null,
+            "_id": 106,
+            "enterprise_name": "POC - Stigentech",
+            "short_name": "POC-Stigentech",
+            "enterprise_icon_file_path": ""
+        },
+        {
+            "enterprise_type": {
+                "lookup_id": 846,
+                "lookup_name": "CORPORATE",
+                "lookup_display_name": "Corporate"
+            },
+            "enterprise_icon": "",
+            "background_image": null,
+            "_id": 108,
+            "enterprise_name": "POC - Magma",
+            "short_name": "POC-Magma",
+            "enterprise_icon_file_path": ""
+        },
+        {
+            "enterprise_type": {
+                "lookup_id": 846,
+                "lookup_name": "CORPORATES"
+            },
+            "enterprise_icon": null,
+            "background_image": null,
+            "_id": 116,
+            "enterprise_name": "Midland Microfin",
+            "short_name": "POC-Midland"
+        },
+        {
+            "enterprise_type": {
+                "lookup_id": 846,
+                "lookup_name": "CORPORATES"
+            },
+            "enterprise_icon": null,
+            "background_image": null,
+            "_id": 118,
+            "enterprise_name": "Midland Microfins",
+            "short_name": "Midland"
+        },
+        {
+            "enterprise_type": {
+                "lookup_id": 846,
+                "lookup_name": "CORPORATES"
+            },
+            "enterprise_icon": null,
+            "background_image": null,
+            "_id": 122,
+            "enterprise_name": "Midland Microfens",
+            "short_name": "microfens"
+        },
+        {
+            "enterprise_type": {
+                "lookup_id": 846,
+                "lookup_name": "CORPORATES"
+            },
+            "enterprise_icon": null,
+            "background_image": null,
+            "_id": 123,
+            "enterprise_name": "Microfin",
+            "short_name": "Microfin"
+        }
+    ],
+    "Alumni Associations": [
+        {
+            "enterprise_type": {
+                "lookup_id": 841,
+                "lookup_name": "ALUMNI_ASSOCIATION"
+            },
+            "enterprise_icon": "",
+            "background_image": null,
+            "_id": 1,
+            "enterprise_name": "Demo - Mumbai Indians",
+            "short_name": "Demo-MI",
+            "enterprise_icon_file_path": ""
+        },
+        {
+            "enterprise_type": {
+                "lookup_id": 841,
+                "lookup_name": "ALUMNI_ASSOCIATION"
+            },
+            "enterprise_icon": "",
+            "background_image": null,
+            "_id": 2,
+            "enterprise_name": "Demo - Chennai Superkings",
+            "short_name": "Demo-CSK",
+            "enterprise_icon_file_path": ""
+        },
+        {
+            "enterprise_type": {
+                "lookup_id": 841,
+                "lookup_name": "ALUMNI_ASSOCIATION",
+                "lookup_display_name": "Alumni Association"
+            },
+            "enterprise_icon": "",
+            "background_image": null,
+            "_id": 102,
+            "enterprise_name": "POC - HOP Business Networking",
+            "short_name": "POC-HOPNet",
+            "enterprise_icon_file_path": ""
+        },
+        {
+            "enterprise_type": {
+                "lookup_id": 841,
+                "lookup_name": "ALUMNI_ASSOCIATION",
+                "lookup_display_name": "Alumni Association"
+            },
+            "enterprise_icon": "",
+            "background_image": null,
+            "_id": 103,
+            "enterprise_name": "POC - Whacked Out ® Media Pte. Ltd",
+            "short_name": "POC-WhackedOut",
+            "enterprise_icon_file_path": ""
+        },
+        {
+            "enterprise_type": {
+                "lookup_id": 841,
+                "lookup_name": "ALUMNI_ASSOCIATION",
+                "lookup_display_name": "Alumni Association"
+            },
+            "enterprise_icon": "",
+            "background_image": null,
+            "_id": 104,
+            "enterprise_name": "POC - Seeds Intimate Apparel",
+            "short_name": "POC-Seeds",
+            "enterprise_icon_file_path": ""
+        },
+        {
+            "enterprise_type": {
+                "lookup_id": 841,
+                "lookup_name": "ALUMNI_ASSOCIATION",
+                "lookup_display_name": "Alumni Association"
+            },
+            "enterprise_icon": "",
+            "background_image": null,
+            "_id": 105,
+            "enterprise_name": "POC - Tieto India Private Limited",
+            "short_name": "POC-Tieto",
+            "enterprise_icon_file_path": ""
+        },
+        {
+            "enterprise_type": {
+                "lookup_id": 841,
+                "lookup_name": "ALUMNI_ASSOCIATION",
+                "lookup_display_name": "Alumni Association"
+            },
+            "enterprise_icon": "",
+            "background_image": null,
+            "_id": 107,
+            "enterprise_name": "POC - Blowhorn",
+            "short_name": "POC-Blowhorn",
+            "enterprise_icon_file_path": ""
+        },
+        {
+            "enterprise_type": {
+                "lookup_id": 841,
+                "lookup_name": "ALUMNI_ASSOCIATION",
+                "lookup_display_name": "Alumni Association"
+            },
+            "enterprise_icon": "",
+            "background_image": null,
+            "_id": 109,
+            "enterprise_name": "POC - USA Chamber of Commerce",
+            "short_name": "POC-USACoC",
+            "enterprise_icon_file_path": ""
+        },
+        {
+            "enterprise_type": {
+                "lookup_id": 841,
+                "lookup_name": "ALUMNI_ASSOCIATION",
+                "lookup_display_name": "Alumni Association"
+            },
+            "enterprise_icon": "",
+            "background_image": null,
+            "_id": 110,
+            "enterprise_name": "POC - Woods Golf Club",
+            "short_name": "POC-WoodsGolf",
+            "enterprise_icon_file_path": ""
+        },
+        {
+            "enterprise_type": {
+                "lookup_id": 841,
+                "lookup_name": "ALUMNI_ASSOCIATION",
+                "lookup_display_name": "Alumni Association"
+            },
+            "enterprise_icon": "",
+            "background_image": null,
+            "_id": 111,
+            "enterprise_name": "POC - Insead",
+            "short_name": "POC-Insead",
+            "enterprise_icon_file_path": ""
+        },
+        {
+            "enterprise_type": {
+                "lookup_id": 841,
+                "lookup_name": "ALUMNI_ASSOCIATION",
+                "lookup_display_name": "Alumni Association"
+            },
+            "enterprise_icon": "",
+            "background_image": null,
+            "_id": 112,
+            "enterprise_name": "POC - South Crest",
+            "short_name": "POC-SouthCrest",
+            "enterprise_icon_file_path": ""
+        }
+    ],
+    "Associations": [
+        {
+            "enterprise_type": {
+                "lookup_id": 843,
+                "lookup_name": "ASSOCIATION"
+            },
+            "enterprise_icon": "",
+            "background_image": null,
+            "_id": 3,
+            "enterprise_name": "Demo - 3D Enterprise",
+            "short_name": "Demo-3DEnt",
+            "enterprise_icon_file_path": ""
+        }
+    ],
+    "Wildlife Parks": [
+        {
+            "enterprise_type": {
+                "lookup_id": 858,
+                "lookup_name": "WILDLIFE_PARKS"
+            },
+            "enterprise_icon": "19.blob1614437950911",
+            "background_image": null,
+            "_id": 4,
+            "enterprise_name": "Demo - Cincinnati Zoo",
+            "short_name": "Demo-CinciZoo",
+            "enterprise_icon_file_path": "assets/enterprises/19"
+        },
+        {
+            "enterprise_type": {
+                "lookup_id": 858,
+                "lookup_name": "WILDLIFE_PARKS"
+            },
+            "enterprise_icon": null,
+            "background_image": null,
+            "_id": 113,
+            "enterprise_name": "Fossil Rim",
+            "short_name": "Fossil Rim"
+        }
+    ],
+    "Educational Facilities": [
+        {
+            "enterprise_type": {
+                "lookup_id": 847,
+                "lookup_name": "EDUCATIONAL_FACILITIES"
+            },
+            "enterprise_icon": "",
+            "background_image": null,
+            "_id": 5,
+            "enterprise_name": "Demo - Carnegie Mellon University",
+            "short_name": "Demo-CMU",
+            "enterprise_icon_file_path": ""
+        }
+    ],
+    "Resorts": [
+        {
+            "enterprise_type": {
+                "lookup_id": 853,
+                "lookup_name": "RESORTS"
+            },
+            "enterprise_icon": "21.blob1614438141599",
+            "background_image": null,
+            "_id": 6,
+            "enterprise_name": "Demo - Ramoji Film City",
+            "short_name": "Demo-RFC",
+            "enterprise_icon_file_path": "assets/enterprises/21"
+        }
+    ],
+    "Public Parks": [
+        {
+            "enterprise_type": {
+                "lookup_id": 851,
+                "lookup_name": "PUBLIC_PARKS"
+            },
+            "enterprise_icon": "22.blob1614438221296",
+            "background_image": null,
+            "_id": 7,
+            "enterprise_name": "Demo - Millennium Park",
+            "short_name": "Demo-MillenniumPark",
+            "enterprise_icon_file_path": "assets/enterprises/22"
+        }
+    ],
+    "Theme Parks": [
+        {
+            "enterprise_type": {
+                "lookup_id": 856,
+                "lookup_name": "THEME_PARKS"
+            },
+            "enterprise_icon": "23.blob1614438339863",
+            "background_image": null,
+            "_id": 8,
+            "enterprise_name": "Demo - Wild Waters",
+            "short_name": "Demo-WildWaters",
+            "enterprise_icon_file_path": "assets/enterprises/23"
+        }
+    ],
+    "Medical Facilities": [
+        {
+            "enterprise_type": {
+                "lookup_id": 848,
+                "lookup_name": "MEDICAL_FACILITIES"
+            },
+            "enterprise_icon": "24.blob1614438522826",
+            "background_image": null,
+            "_id": 9,
+            "enterprise_name": "Demo - Mid Coast Hospital",
+            "short_name": "Demo-MidCoast",
+            "enterprise_icon_file_path": "assets/enterprises/24"
+        },
+        {
+            "enterprise_type": {
+                "lookup_id": 848,
+                "lookup_name": "MEDICAL_FACILITIES"
+            },
+            "enterprise_icon": "",
+            "background_image": null,
+            "_id": 14,
+            "enterprise_name": "Demo - KIMS Hospital",
+            "short_name": "Demo-KIMS",
+            "enterprise_icon_file_path": ""
+        }
+    ],
+    "Convention Centers": [
+        {
+            "enterprise_type": {
+                "lookup_id": 845,
+                "lookup_name": "CONVENTION_CENTERS"
+            },
+            "enterprise_icon": "25.blob1614438634227",
+            "background_image": null,
+            "_id": 10,
+            "enterprise_name": "Demo - WonderCon Anaheim",
+            "short_name": "Demo-WonderCon",
+            "enterprise_icon_file_path": "assets/enterprises/25"
+        },
+        {
+            "enterprise_type": {
+                "lookup_id": 845,
+                "lookup_name": "CONVENTION_CENTERS"
+            },
+            "enterprise_icon": "",
+            "background_image": null,
+            "_id": 15,
+            "enterprise_name": "Demo - Vartech",
+            "short_name": "Demo-Vartech",
+            "enterprise_icon_file_path": ""
+        }
+    ],
+    "Shopping Malls": [
+        {
+            "enterprise_type": {
+                "lookup_id": 854,
+                "lookup_name": "SHOPPING_MALLS"
+            },
+            "enterprise_icon": "",
+            "background_image": null,
+            "_id": 11,
+            "enterprise_name": "Demo - Vaughan Mills",
+            "short_name": "Demo-VaughanMills",
+            "enterprise_icon_file_path": ""
+        },
+        {
+            "enterprise_type": {
+                "lookup_id": 854,
+                "lookup_name": "SHOPPING_MALLS"
+            },
+            "enterprise_icon": "",
+            "background_image": null,
+            "_id": 13,
+            "enterprise_name": "Demo - Westend Mall",
+            "short_name": "Demo-WestendMall",
+            "enterprise_icon_file_path": ""
+        }
+    ],
+    "Temple Towns": [
+        {
+            "enterprise_type": {
+                "lookup_id": 855,
+                "lookup_name": "TEMPLE_TOWNS"
+            },
+            "enterprise_icon": "",
+            "background_image": null,
+            "_id": 12,
+            "enterprise_name": "Demo  - TTD",
+            "short_name": "Demo-TTD",
+            "enterprise_icon_file_path": ""
+        }
+    ],
+    "Warehouses": [
+        {
+            "enterprise_type": {
+                "lookup_id": 857,
+                "lookup_name": "WAREHOUSES"
+            },
+            "enterprise_icon": "",
+            "background_image": null,
+            "_id": 16,
+            "enterprise_name": "Demo - Warehouse",
+            "short_name": "Demo-Warehouse",
+            "enterprise_icon_file_path": ""
+        }
+    ],
+    "Aquariums": [
+        {
+            "enterprise_type": {
+                "lookup_id": 842,
+                "lookup_name": "AQUARIUMS"
+            },
+            "enterprise_icon": "",
+            "background_image": null,
+            "_id": 17,
+            "enterprise_name": "Demo - North Carolina Aquarium",
+            "short_name": "Demo-NCAqua",
+            "enterprise_icon_file_path": ""
+        }
+    ],
+    "Airports": [
+        {
+            "enterprise_type": {
+                "lookup_id": 840,
+                "lookup_name": "AIRPORTS"
+            },
+            "enterprise_icon": "",
+            "background_image": null,
+            "_id": 18,
+            "enterprise_name": "Demo - Gatwick Airport",
+            "short_name": "Demo-Gatwick",
+            "enterprise_icon_file_path": ""
+        }
+    ],
+    "": [
+        {
+            "enterprise_type": {
+                "lookup_name": "CORPORATE",
+                "lookup_display_name": "Corporate",
+                "lookup_id": 860
+            },
+            "enterprise_icon": null,
+            "background_image": null,
+            "_id": 114,
+            "enterprise_name": "Navriti Technologies",
+            "short_name": "POC-NavritiTech"
+        }
+    ]
+}

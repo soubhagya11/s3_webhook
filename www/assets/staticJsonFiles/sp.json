@@ -1,0 +1,2231 @@
+{
+  "menus": {
+    "dashboard": {
+      "enabled": true,
+      "submenus": {
+        "dashboard": {
+          "enabled": true,
+          "view": true,
+          "create": true,
+          "edit": true,
+          "delete": true,
+          "export": true,
+          "arrange": true,
+          "preview": true,
+          "import": true,
+          "inactivate": true,
+          "activate": true,
+          "stats": true
+        },
+        "dashboardactivities": {
+          "enabled": true,
+          "view": true,
+          "create": true,
+          "edit": true,
+          "delete": true,
+          "inactivate": true,
+          "activate": true,
+          "stats": true
+        }
+      }
+    },
+    "admin": {
+      "enabled": true,
+      "submenus": {
+        "rolerights": {
+          "enabled": true,
+          "view": true,
+          "create": true,
+          "edit": true,
+          "delete": true,
+          "export": true,
+          "import": true,
+          "inactivate": true,
+          "activate": true,
+          "stats": true
+        },
+        "loginhistory": {
+          "enabled": true,
+          "view": true,
+          "reports": true,
+          "export": true,
+          "import": true,
+          "stats": true
+        },
+        "lookuptypes": {
+          "enabled": true,
+          "view": true,
+          "create": true,
+          "edit": true,
+          "delete": true,
+          "export": true,
+          "import": true,
+          "inactivate": true,
+          "activate": true,
+          "stats": true
+        },
+        "lookupcodes": {
+          "enabled": true,
+          "view": true,
+          "create": true,
+          "edit": true,
+          "delete": true,
+          "export": true,
+          "import": true,
+          "inactivate": true,
+          "activate": true,
+          "stats": true
+        },
+        "attributedefns": {
+          "enabled": true,
+          "view": true,
+          "create": true,
+          "edit": true,
+          "delete": true,
+          "export": true,
+          "import": true,
+          "inactivate": true,
+          "activate": true,
+          "stats": true
+        },
+        "widgetdefinitions": {
+          "enabled": true,
+          "view": true,
+          "create": true,
+          "edit": true,
+          "delete": true
+        },
+        "reportdefinitions": {
+          "enabled": true,
+          "view": true,
+          "create": true,
+          "edit": true,
+          "delete": true,
+          "export": true,
+          "import": true,
+          "inactivate": true,
+          "activate": true,
+          "stats": true
+        },
+        "wellnesselementdefinitions": {
+          "enabled": true,
+          "view": true,
+          "create": true,
+          "edit": true,
+          "delete": true,
+          "inactivate": true,
+          "activate": true,
+          "stats": true,
+          "activities": true
+        },
+        "workabsencesettings": {
+          "enabled": true,
+          "view": true,
+          "create": true,
+          "edit": true,
+          "delete": true,
+          "inactivate": true,
+          "activate": true,
+          "stats": true,
+          "activities": true
+        },
+        "workadminleavebases": {
+          "enabled": true,
+          "view": true,
+          "create": true,
+          "edit": true,
+          "delete": true,
+          "inactivate": true,
+          "activate": true,
+          "stats": true,
+          "activities": true
+        },
+        "workadminappraisalsbases": {
+          "enabled": true,
+          "view": true,
+          "create": true,
+          "edit": true,
+          "delete": true,
+          "inactivate": true,
+          "activate": true,
+          "stats": true,
+          "activities": true
+        },
+        "workadminskillsbases": {
+          "enabled": true,
+          "view": true,
+          "create": true,
+          "edit": true,
+          "delete": true,
+          "inactivate": true,
+          "activate": true,
+          "stats": true,
+          "activities": true
+        },
+        "workappraisalelements": {
+          "enabled": true,
+          "view": true,
+          "create": true,
+          "edit": true,
+          "delete": true,
+          "inactivate": true,
+          "activate": true,
+          "stats": true,
+          "activities": true
+        },
+        "workappraisaltemplates": {
+          "enabled": true,
+          "view": true,
+          "create": true,
+          "edit": true,
+          "delete": true,
+          "inactivate": true,
+          "activate": true,
+          "stats": true,
+          "activities": true
+        },
+        "workskillelements": {
+          "enabled": true,
+          "view": true,
+          "create": true,
+          "edit": true,
+          "delete": true,
+          "inactivate": true,
+          "activate": true,
+          "stats": true,
+          "activities": true
+        },
+        "workskilltemplates": {
+          "enabled": true,
+          "view": true,
+          "create": true,
+          "edit": true,
+          "delete": true,
+          "inactivate": true,
+          "activate": true,
+          "stats": true,
+          "activities": true
+        },
+        "serverlogs": {
+          "enabled": true,
+          "view": true,
+          "create": true,
+          "edit": true,
+          "delete": true,
+          "inactivate": true,
+          "activate": true,
+          "stats": true,
+          "activities": true
+        },
+        "workinfraelements": {
+          "enabled": true,
+          "view": true,
+          "create": true,
+          "edit": true,
+          "delete": true,
+          "inactivate": true,
+          "activate": true,
+          "stats": true,
+          "activities": true
+        }
+      }
+    },
+    "profilemenu": {
+      "enabled": true,
+      "submenus": {
+        "aboutus": {
+          "enabled": true,
+          "view": true,
+          "create": true,
+          "edit": true,
+          "delete": true
+        },
+        "faqs": {
+          "enabled": true,
+          "view": true,
+          "create": true,
+          "edit": true,
+          "delete": true
+        },
+        "myprofile": {
+          "enabled": true,
+          "view": true,
+          "create": true,
+          "edit": true,
+          "delete": true,
+          "export": true,
+          "import": true,
+          "inactivate": true,
+          "activate": true,
+          "stats": true
+        },
+        "releasenotes": {
+          "enabled": true,
+          "view": true,
+          "create": true,
+          "edit": true,
+          "delete": true,
+          "export": true,
+          "import": true,
+          "inactivate": true,
+          "activate": true,
+          "stats": true
+        },
+        "notifications": {
+          "enabled": true,
+          "view": true,
+          "create": true,
+          "edit": true,
+          "delete": true,
+          "export": true,
+          "import": true,
+          "inactivate": true,
+          "activate": true,
+          "stats": true,
+          "read": true,
+          "unread": true,
+          "publish": true
+        },
+        "emails": {
+          "enabled": true,
+          "view": true,
+          "create": true,
+          "edit": true,
+          "delete": true,
+          "export": true,
+          "import": true,
+          "inactivate": true,
+          "activate": true,
+          "publish": true,
+          "stats": true
+        },
+        "subscribeenterprises": {
+          "enabled": true,
+          "view": true,
+          "create": true,
+          "edit": true,
+          "delete": true,
+          "export": true,
+          "import": true,
+          "inactivate": true,
+          "activate": true,
+          "stats": true
+        },
+        "tutorials": {
+          "enabled": true,
+          "view": true,
+          "create": true,
+          "edit": true,
+          "delete": true,
+          "export": true,
+          "import": true,
+          "inactivate": true,
+          "activate": true,
+          "stats": true
+        },
+        "changealias": {
+          "enabled": true,
+          "view": true,
+          "create": true,
+          "edit": true
+        },
+        "changepassword": {
+          "enabled": true,
+          "view": true,
+          "create": true,
+          "edit": true
+        },
+        "changeapiendpoint": {
+          "enabled": true,
+          "view": true,
+          "create": true,
+          "edit": true
+        },
+        "callrecords": {
+          "enabled": true,
+          "view": true,
+          "create": true,
+          "edit": true
+        },
+        "logout": {
+          "enabled": true,
+          "view": true
+        }
+      }
+    },
+    "alumnifeatures": {
+      "enabled": true,
+      "submenus": {
+        "teachers": {
+          "enabled": true,
+          "view": true,
+          "create": true,
+          "edit": true,
+          "delete": true,
+          "export": true,
+          "import": true,
+          "inactivate": true,
+          "activate": true,
+          "stats": true
+        },
+        "rankers": {
+          "enabled": true,
+          "view": true,
+          "create": true,
+          "edit": true,
+          "delete": true,
+          "export": true,
+          "import": true,
+          "inactivate": true,
+          "activate": true,
+          "stats": true
+        },
+        "distinguishedalumni": {
+          "enabled": true,
+          "view": true,
+          "create": true,
+          "edit": true,
+          "delete": true,
+          "export": true,
+          "import": true,
+          "inactivate": true,
+          "activate": true,
+          "stats": true
+        }
+      }
+    },
+    "enterprises": {
+      "enabled": true,
+      "submenus": {
+        "dashboard": {
+          "enabled": true
+        },
+        "enterprises": {
+          "enabled": true,
+          "view": true,
+          "create": true,
+          "edit": true,
+          "delete": true,
+          "export": true,
+          "import": true,
+          "inactivate": true,
+          "activate": true,
+          "stats": true
+        },
+        "contracts": {
+          "enabled": true,
+          "view": true,
+          "create": true,
+          "edit": true,
+          "delete": true,
+          "export": true,
+          "import": true,
+          "inactivate": true,
+          "activate": true,
+          "stats": true
+        },
+        "branches": {
+          "enabled": true,
+          "view": true,
+          "create": true,
+          "edit": true,
+          "delete": true,
+          "export": true,
+          "import": true,
+          "inactivate": true,
+          "activate": true,
+          "stats": true
+        },
+        "billsandpayments": {
+          "enabled": true,
+          "view": true,
+          "create": true,
+          "edit": true,
+          "delete": true,
+          "export": true,
+          "import": true,
+          "inactivate": true,
+          "activate": true,
+          "stats": true
+        },
+        "enterpriseactivities": {
+          "enabled": true,
+          "view": true,
+          "create": true,
+          "edit": true,
+          "delete": true,
+          "inactivate": true,
+          "activate": true,
+          "stats": true
+        }
+      }
+    },
+    "groups": {
+      "enabled": true,
+      "submenus": {
+        "dashboard": {
+          "enabled": true
+        },
+        "groups": {
+          "enabled": true,
+          "requested": true,
+          "others": true,
+          "view": true,
+          "create": true,
+          "edit": true,
+          "delete": true,
+          "export": true,
+          "import": true,
+          "inactivate": true,
+          "activate": true,
+          "stats": true,
+          "activememers": true,
+          "requestedmembers": true,
+          "invitedmembers": true,
+          "rejectedmembers": true,
+          "blockedmembers": true,
+          "invitemembers": true,
+          "groupmessage": true,
+          "grouppost": true,
+          "leavegroup": true,
+          "groupsimport": true,
+          "groupmembersimport": true
+        },
+        "groupactivities": {
+          "enabled": true,
+          "view": true,
+          "create": true,
+          "edit": true,
+          "delete": true,
+          "inactivate": true,
+          "activate": true,
+          "stats": true
+        }
+      }
+    },
+    "events": {
+      "enabled": true,
+      "submenus": {
+        "dashboard": {
+          "enabled": true
+        },
+        "events": {
+          "enabled": true,
+          "requested": true,
+          "others": true,
+          "view": true,
+          "create": true,
+          "edit": true,
+          "delete": true,
+          "export": true,
+          "import": true,
+          "inactivate": true,
+          "activate": true,
+          "stats": true,
+          "request": true,
+          "cancel": true,
+          "activememers": true,
+          "requestedmembers": true,
+          "invitedmembers": true,
+          "rejectedmembers": true,
+          "cancelledmembers": true,
+          "invitemembers": true
+        },
+        "eventactivities": {
+          "enabled": true,
+          "view": true,
+          "create": true,
+          "edit": true,
+          "delete": true,
+          "inactivate": true,
+          "activate": true,
+          "stats": true
+        },
+        "eventreservations": {
+          "enabled": true,
+          "requested": true,
+          "others": true,
+          "view": true,
+          "create": true,
+          "edit": true,
+          "delete": true,
+          "export": true,
+          "import": true,
+          "inactivate": true,
+          "activate": true,
+          "stats": true
+        }
+      }
+    },
+    "reservations": {
+      "enabled": true,
+      "submenus": {
+        "dashboard": {
+          "enabled": true
+        },
+        "reservations": {
+          "enabled": true,
+          "requested": true,
+          "others": true,
+          "view": true,
+          "create": true,
+          "edit": true,
+          "delete": true,
+          "export": true,
+          "import": true,
+          "inactivate": true,
+          "activate": true,
+          "stats": true
+        },
+        "reservationactivities": {
+          "enabled": true,
+          "view": true,
+          "create": true,
+          "edit": true,
+          "delete": true,
+          "inactivate": true,
+          "activate": true,
+          "stats": true
+        }
+      }
+    },
+    "facilities": {
+      "enabled": true,
+      "submenus": {
+        "dashboard": {
+          "enabled": true
+        },
+        "facilities": {
+          "enabled": true,
+          "requested": true,
+          "others": true,
+          "view": true,
+          "create": true,
+          "edit": true,
+          "delete": true,
+          "export": true,
+          "import": true,
+          "inactivate": true,
+          "activate": true,
+          "stats": true
+        },
+        "facilityactivities": {
+          "enabled": true,
+          "view": true,
+          "create": true,
+          "edit": true,
+          "delete": true,
+          "inactivate": true,
+          "activate": true,
+          "stats": true
+        },
+        "facilityreservations": {
+          "enabled": true,
+          "requested": true,
+          "others": true,
+          "view": true,
+          "create": true,
+          "edit": true,
+          "delete": true,
+          "export": true,
+          "import": true,
+          "inactivate": true,
+          "activate": true,
+          "stats": true
+        }
+      }
+    },
+    "reports": {
+      "enabled": true,
+      "submenus": {
+        "alumniplugin": {
+          "enabled": true,
+          "view": true,
+          "create": true,
+          "edit": true,
+          "delete": true,
+          "export": true,
+          "import": true,
+          "inactivate": true,
+          "activate": true,
+          "stats": true
+        },
+        "reportsubmissions": {
+          "enabled": true,
+          "view": true,
+          "create": true,
+          "edit": true,
+          "delete": true,
+          "export": true,
+          "import": true,
+          "inactivate": true,
+          "activate": true,
+          "stats": true
+        },
+        "eaglecore": {
+          "enabled": true,
+          "view": true,
+          "create": true,
+          "edit": true,
+          "delete": true,
+          "export": true,
+          "import": true,
+          "inactivate": true,
+          "activate": true,
+          "stats": true
+        },
+        "projects": {
+          "enabled": true,
+          "view": true,
+          "create": true,
+          "edit": true,
+          "delete": true,
+          "export": true,
+          "import": true,
+          "inactivate": true,
+          "activate": true,
+          "stats": true
+        },
+        "iotcore": {
+          "enabled": true,
+          "view": true,
+          "create": true,
+          "edit": true,
+          "delete": true,
+          "export": true,
+          "import": true,
+          "inactivate": true,
+          "activate": true,
+          "stats": true
+        },
+        "iotplay": {
+          "enabled": true,
+          "view": true,
+          "create": true,
+          "edit": true,
+          "delete": true,
+          "export": true,
+          "import": true,
+          "inactivate": true,
+          "activate": true,
+          "stats": true
+        },
+        "all": {
+          "enabled": true,
+          "view": true,
+          "create": true,
+          "edit": true,
+          "delete": true,
+          "export": true,
+          "import": true,
+          "inactivate": true,
+          "activate": true,
+          "stats": true
+        },
+        "dashboard": {
+          "enabled": true
+        },
+        "reportactivities": {
+          "enabled": true,
+          "view": true,
+          "create": true,
+          "edit": true,
+          "delete": true,
+          "inactivate": true,
+          "activate": true,
+          "stats": true
+        }
+      }
+    },
+    "users": {
+      "enabled": true,
+      "submenus": {
+        "dashboard": {
+          "enabled": true
+        },
+        "users": {
+          "enabled": true,
+          "view": true,
+          "create": true,
+          "edit": true,
+          "delete": true,
+          "export": true,
+          "import": true,
+          "inactivate": true,
+          "activate": true,
+          "stats": true
+        },
+        "userprofile": {
+          "enabled": true,
+          "view": true,
+          "create": true,
+          "edit": true,
+          "delete": true,
+          "export": true,
+          "import": true,
+          "inactivate": true,
+          "activate": true,
+          "stats": true
+        },
+        "useractivities": {
+          "enabled": true,
+          "view": true,
+          "create": true,
+          "edit": true,
+          "delete": true,
+          "inactivate": true,
+          "activate": true,
+          "stats": true
+        }
+      }
+    },
+    "polls": {
+      "enabled": true,
+      "submenus": {
+        "dashboard": {
+          "enabled": true
+        },
+        "polls": {
+          "enabled": true,
+          "view": true,
+          "create": true,
+          "edit": true,
+          "delete": true,
+          "export": true,
+          "import": true,
+          "activate": true,
+          "inactivate": true,
+          "stats": true,
+          "pollvote": true
+        },
+        "pollactivities": {
+          "enabled": true,
+          "view": true,
+          "create": true,
+          "edit": true,
+          "delete": true,
+          "inactivate": true,
+          "activate": true,
+          "stats": true
+        }
+      }
+    },
+    "surveys": {
+      "enabled": true,
+      "submenus": {
+        "dashboard": {
+          "enabled": true
+        },
+        "surveys": {
+          "enabled": true,
+          "view": true,
+          "create": true,
+          "edit": true,
+          "delete": true,
+          "export": true,
+          "import": true,
+          "activate": true,
+          "inactivate": true,
+          "stats": true,
+          "surveyresponse": true
+        },
+        "surveyactivities": {
+          "enabled": true,
+          "view": true,
+          "create": true,
+          "edit": true,
+          "delete": true,
+          "inactivate": true,
+          "activate": true,
+          "stats": true
+        }
+      }
+    },
+    "donateprojects": {
+      "enabled": true,
+      "submenus": {
+        "dashboard": {
+          "enabled": true
+        },
+        "donateprojects": {
+          "enabled": true,
+          "donate": true,
+          "view": true,
+          "create": true,
+          "edit": true,
+          "delete": true,
+          "export": true,
+          "import": true,
+          "inactivate": true,
+          "activate": true,
+          "stats": true
+        },
+        "donateprojectactivities": {
+          "enabled": true,
+          "view": true,
+          "create": true,
+          "edit": true,
+          "delete": true,
+          "inactivate": true,
+          "activate": true,
+          "stats": true
+        }
+      }
+    },
+    "eaglestore": {
+      "enabled": true,
+      "submenus": {
+        "eagleestore": {
+          "enabled": true,
+          "view": true,
+          "create": true,
+          "edit": true,
+          "delete": true,
+          "export": true,
+          "import": true,
+          "inactivate": true,
+          "activate": true,
+          "stats": true
+        },
+        "catalog": {
+          "enabled": true,
+          "view": true,
+          "create": true,
+          "edit": true,
+          "delete": true,
+          "export": true,
+          "import": true,
+          "inactivate": true,
+          "activate": true,
+          "stats": true
+        },
+        "yourorders": {
+          "enabled": true,
+          "view": true,
+          "create": true,
+          "edit": true,
+          "delete": true,
+          "export": true,
+          "import": true,
+          "inactivate": true,
+          "activate": true,
+          "stats": true
+        },
+        "shippingpolicy": {
+          "enabled": true,
+          "view": true,
+          "create": true,
+          "edit": true,
+          "delete": true,
+          "export": true,
+          "import": true,
+          "inactivate": true,
+          "activate": true,
+          "stats": true
+        },
+        "termsandconditions": {
+          "enabled": true,
+          "view": true,
+          "create": true,
+          "edit": true,
+          "delete": true,
+          "export": true,
+          "import": true,
+          "inactivate": true,
+          "activate": true,
+          "stats": true
+        },
+        "privacypolicy": {
+          "enabled": true,
+          "view": true,
+          "create": true,
+          "edit": true,
+          "delete": true,
+          "export": true,
+          "import": true,
+          "inactivate": true,
+          "activate": true,
+          "stats": true
+        },
+        "returnpolicy": {
+          "enabled": true,
+          "view": true,
+          "create": true,
+          "edit": true,
+          "delete": true,
+          "export": true,
+          "import": true,
+          "inactivate": true,
+          "activate": true,
+          "stats": true
+        }
+      }
+    },
+    "enterprisestore": {
+      "enabled": true,
+      "submenus": {
+        "enterprisestore": {
+          "enabled": true,
+          "view": true,
+          "create": true,
+          "edit": true,
+          "delete": true,
+          "export": true,
+          "import": true,
+          "inactivate": true,
+          "activate": true,
+          "stats": true
+        },
+        "catalog": {
+          "enabled": true,
+          "view": true,
+          "create": true,
+          "edit": true,
+          "delete": true,
+          "export": true,
+          "import": true,
+          "inactivate": true,
+          "activate": true,
+          "stats": true
+        },
+        "yourorders": {
+          "enabled": true,
+          "view": true,
+          "create": true,
+          "edit": true,
+          "delete": true,
+          "export": true,
+          "import": true,
+          "inactivate": true,
+          "activate": true,
+          "stats": true
+        },
+        "shippingpolicy": {
+          "enabled": true,
+          "view": true,
+          "create": true,
+          "edit": true,
+          "delete": true,
+          "export": true,
+          "import": true,
+          "inactivate": true,
+          "activate": true,
+          "stats": true
+        },
+        "termsandconditions": {
+          "enabled": true,
+          "view": true,
+          "create": true,
+          "edit": true,
+          "delete": true,
+          "export": true,
+          "import": true,
+          "inactivate": true,
+          "activate": true,
+          "stats": true
+        },
+        "privacypolicy": {
+          "enabled": true,
+          "view": true,
+          "create": true,
+          "edit": true,
+          "delete": true,
+          "export": true,
+          "import": true,
+          "inactivate": true,
+          "activate": true,
+          "stats": true
+        },
+        "returnpolicy": {
+          "enabled": true,
+          "view": true,
+          "create": true,
+          "edit": true,
+          "delete": true,
+          "export": true,
+          "import": true,
+          "inactivate": true,
+          "activate": true,
+          "stats": true
+        }
+      }
+    },
+    "posts": {
+      "enabled": true,
+      "submenus": {
+        "dashboard": {
+          "enabled": true
+        },
+        "posts": {
+          "enabled": true,
+          "view": true,
+          "create": true,
+          "edit": true,
+          "delete": true,
+          "like": true,
+          "share": true,
+          "stats": true,
+          "read": true,
+          "unread": true,
+          "forward": true,
+          "comment": true
+        }
+      }
+    },
+    "messages": {
+      "enabled": true,
+      "submenus": {
+        "dashboard": {
+          "enabled": true
+        },
+        "messages": {
+          "enabled": true,
+          "view": true,
+          "create": true,
+          "edit": true,
+          "delete": true,
+          "inactivate": true,
+          "activate": true,
+          "stats": true,
+          "read": true,
+          "unread": true,
+          "forward": true
+        }
+      }
+    },
+    "configoptions": {
+      "enabled": true,
+      "submenus": {
+        "serversettings": {
+          "enabled": true,
+          "view": true,
+          "create": true,
+          "edit": true,
+          "delete": true,
+          "export": true,
+          "import": true,
+          "inactivate": true,
+          "activate": true,
+          "stats": true
+        },
+        "cachesettings": {
+          "enabled": true,
+          "view": true,
+          "edit": true,
+          "reports": true,
+          "export": true,
+          "import": true,
+          "stats": true
+        },
+        "splashscreensettings": {
+          "enabled": true,
+          "view": true,
+          "create": true,
+          "edit": true,
+          "delete": true,
+          "export": true,
+          "import": true,
+          "inactivate": true,
+          "activate": true,
+          "stats": true
+        },
+        "onboardingsettings": {
+          "enabled": true,
+          "view": true,
+          "create": true,
+          "edit": true,
+          "delete": true,
+          "export": true,
+          "import": true,
+          "inactivate": true,
+          "activate": true,
+          "stats": true
+        },
+        "confighighlights": {
+          "enabled": true,
+          "view": true,
+          "create": true,
+          "edit": true,
+          "delete": true,
+          "export": true,
+          "import": true,
+          "inactivate": true,
+          "activate": true,
+          "stats": true
+        },
+        "dashboardsettings": {
+          "enabled": true,
+          "edit": true
+        },
+        "enterprisesettings": {
+          "enabled": true,
+          "edit": true
+        },
+        "profileviewconfigs": {
+          "enabled": true,
+          "view": true,
+          "create": true,
+          "edit": true,
+          "delete": true,
+          "export": true,
+          "import": true,
+          "inactivate": true,
+          "activate": true,
+          "stats": true
+        },
+        "listviewconfigs": {
+          "enabled": true,
+          "view": true,
+          "create": true,
+          "edit": true,
+          "delete": true,
+          "export": true,
+          "import": true,
+          "inactivate": true,
+          "activate": true,
+          "stats": true
+        },
+        "moduleviewconfigs": {
+          "enabled": true,
+          "view": true,
+          "create": true,
+          "edit": true,
+          "delete": true,
+          "export": true,
+          "import": true,
+          "inactivate": true,
+          "activate": true,
+          "stats": true
+        },
+        "emailsettings": {
+          "enabled": true,
+          "edit": true
+        },
+        "estoresettings": {
+          "enabled": true,
+          "edit": true
+        },
+        "paygatesettings": {
+          "enabled": true,
+          "view": true,
+          "create": true,
+          "edit": true,
+          "delete": true
+        },
+        "iplaysettings": {
+          "enabled": true,
+          "view": true,
+          "create": true,
+          "edit": true,
+          "delete": true
+        },
+        "menusettings": {
+          "enabled": true,
+          "view": true,
+          "create": true,
+          "edit": true,
+          "delete": true,
+          "export": true,
+          "import": true,
+          "inactivate": true,
+          "activate": true,
+          "stats": true
+        },
+        "notificationsettings": {
+          "enabled": true,
+          "view": true,
+          "create": true,
+          "edit": true,
+          "delete": true,
+          "export": true,
+          "import": true,
+          "inactivate": true,
+          "activate": true,
+          "stats": true
+        },
+        "sponsorsettings": {
+          "enabled": true,
+          "view": true,
+          "create": true,
+          "edit": true,
+          "delete": true,
+          "export": true,
+          "import": true,
+          "inactivate": true,
+          "activate": true,
+          "stats": true
+        },
+        "syncsettings": {
+          "enabled": true,
+          "view": true,
+          "create": true,
+          "edit": true,
+          "delete": true,
+          "export": true,
+          "import": true,
+          "inactivate": true,
+          "activate": true,
+          "stats": true
+        },
+        "workeffortlogsettings": {
+          "enabled": true,
+          "view": true,
+          "create": true,
+          "edit": true,
+          "delete": true,
+          "export": true,
+          "import": true,
+          "inactivate": true,
+          "activate": true,
+          "stats": true
+        },
+        "employeepaysettings": {
+          "enabled": true,
+          "view": true,
+          "create": true,
+          "edit": true,
+          "delete": true,
+          "export": true,
+          "import": true,
+          "inactivate": true,
+          "activate": true,
+          "stats": true
+        },
+        "miscellaneous": {
+          "enabled": false,
+          "view": true,
+          "create": true,
+          "edit": true,
+          "delete": true,
+          "export": true,
+          "import": true,
+          "inactivate": true,
+          "activate": true,
+          "stats": true
+        },
+        "financesettings": {
+          "enabled": true,
+          "view": true,
+          "create": true,
+          "edit": true,
+          "delete": true,
+          "export": true,
+          "import": true,
+          "inactivate": true,
+          "activate": true,
+          "stats": true
+        },
+        "approvalsettings": {
+          "enabled": true,
+          "view": true,
+          "create": true,
+          "edit": true,
+          "delete": true,
+          "export": true,
+          "import": true,
+          "inactivate": true,
+          "activate": true,
+          "stats": true
+        }
+      }
+    },
+    "iotcore": {
+      "enabled": true,
+      "submenus": {
+        "googlefit": {
+          "enabled": true,
+          "view": true,
+          "create": true,
+          "edit": true,
+          "delete": true,
+          "inactivate": true,
+          "activate": true
+        },
+        "wellnesselementtransactions": {
+          "enabled": true,
+          "view": true,
+          "create": true,
+          "edit": true,
+          "delete": true,
+          "inactivate": true,
+          "activate": true,
+          "stats": null
+        },
+        "applehealthkit": {
+          "enabled": true,
+          "view": true,
+          "create": true,
+          "edit": true,
+          "delete": true,
+          "inactivate": true,
+          "activate": true,
+          "stats": true,
+          "activities": true
+        },
+        "smartband": {
+          "enabled": true,
+          "view": true,
+          "create": true,
+          "edit": true,
+          "delete": true,
+          "inactivate": true,
+          "activate": true
+        },
+        "devices": {
+          "enabled": true
+        }
+      }
+    },
+    "iotplay": {
+      "enabled": true,
+      "submenus": {
+        "tournaments": {
+          "enabled": true,
+          "view": true,
+          "create": true,
+          "edit": true,
+          "delete": true,
+          "inactivate": true,
+          "activate": true,
+          "stats": true,
+          "activities": true,
+          "cancel": true
+        },
+        "tournamentparticipants": {
+          "enabled": true,
+          "view": true,
+          "create": true,
+          "edit": true,
+          "delete": true,
+          "inactivate": true,
+          "activate": true
+        },
+        "teams": {
+          "enabled": true,
+          "view": true,
+          "create": true,
+          "edit": true,
+          "delete": true,
+          "inactivate": true,
+          "activate": true,
+          "stats": true,
+          "activities": true
+        },
+        "teammembers": {
+          "enabled": true,
+          "view": true,
+          "create": true,
+          "edit": true,
+          "delete": true,
+          "inactivate": true,
+          "activate": true
+        },
+        "stars": {
+          "enabled": true,
+          "view": true,
+          "create": true,
+          "edit": true,
+          "delete": true,
+          "inactivate": true,
+          "activate": true
+        },
+        "starprofiles": {
+          "enabled": true,
+          "view": true,
+          "create": true,
+          "edit": true,
+          "delete": true,
+          "inactivate": true,
+          "activate": true
+        },
+        "iotevents": {
+          "enabled": true,
+          "view": true,
+          "create": true,
+          "edit": true,
+          "delete": true,
+          "inactivate": true,
+          "activate": true,
+          "stats": true,
+          "activities": true,
+          "cancel": true
+        },
+        "ioteventparticipants": {
+          "enabled": true,
+          "view": true,
+          "create": true,
+          "edit": true,
+          "delete": true,
+          "inactivate": true,
+          "activate": true
+        },
+        "fanfit": {
+          "enabled": true
+        },
+        "iotplayactivities": {
+          "enabled": true,
+          "view": true,
+          "create": true,
+          "edit": true,
+          "delete": true,
+          "inactivate": true,
+          "activate": true,
+          "stats": true
+        }
+      }
+    },
+    "activities": {
+      "enabled": true,
+      "submenus": {
+        "dashboard": {
+          "enabled": true
+        },
+        "activities": {
+          "enabled": true,
+          "view": true,
+          "create": true,
+          "edit": true,
+          "delete": true,
+          "inactivate": true,
+          "activate": true,
+          "stats": true
+        }
+      }
+    },
+    "clients": {
+      "enabled": true,
+      "submenus": {
+        "clients": {
+          "enabled": true,
+          "view": true,
+          "create": true,
+          "edit": true,
+          "delete": true,
+          "inactivate": true,
+          "activate": true,
+          "stats": true
+        },
+        "clientbillsandpayments": {
+          "enabled": true,
+          "view": true,
+          "create": true,
+          "edit": true,
+          "delete": true,
+          "inactivate": true,
+          "activate": true,
+          "stats": true
+        },
+        "clientcontracts": {
+          "enabled": true,
+          "view": true,
+          "create": true,
+          "edit": true,
+          "delete": true,
+          "inactivate": true,
+          "activate": true,
+          "stats": true
+        },
+        "clientworkprojects": {
+          "enabled": true,
+          "view": true,
+          "create": true,
+          "edit": true,
+          "delete": true,
+          "inactivate": true,
+          "activate": true,
+          "stats": true
+        },
+        "clientworktickets": {
+          "enabled": true,
+          "view": true,
+          "create": true,
+          "edit": true,
+          "delete": true,
+          "inactivate": true,
+          "activate": true,
+          "stats": true
+        },
+        "clientactivities": {
+          "enabled": true,
+          "view": true,
+          "create": true,
+          "edit": true,
+          "delete": true,
+          "inactivate": true,
+          "activate": true,
+          "stats": true
+        },
+        "clientworkeffortlogs": {
+          "enabled": true,
+          "view": true,
+          "create": true,
+          "edit": true,
+          "delete": true,
+          "export": true,
+          "import": true,
+          "activate": true,
+          "viewcalendar": true,
+          "stats": true
+        }
+      }
+    },
+    "workprojects": {
+      "enabled": true,
+      "submenus": {
+        "workprojects": {
+          "enabled": true,
+          "view": true,
+          "create": true,
+          "edit": true,
+          "delete": true,
+          "inactivate": true,
+          "activate": true,
+          "stats": true
+        },
+        "workprojectworktasks": {
+          "enabled": true,
+          "view": true,
+          "create": true,
+          "edit": true,
+          "delete": true,
+          "inactivate": true,
+          "activate": true,
+          "stats": true
+        },
+        "workprojecttickets": {
+          "enabled": true,
+          "view": true,
+          "create": true,
+          "edit": true,
+          "delete": true,
+          "inactivate": true,
+          "activate": true,
+          "stats": true
+        },
+        "workprojectassignments": {
+          "enabled": true,
+          "view": true,
+          "create": true,
+          "edit": true,
+          "delete": true,
+          "inactivate": true,
+          "activate": true,
+          "stats": true
+        },
+        "workprojecttasks": {
+          "enabled": true,
+          "view": true,
+          "create": true,
+          "edit": true,
+          "delete": true,
+          "export": true,
+          "import": true,
+          "activate": true,
+          "viewcalendar": true,
+          "stats": true,
+          "inactivate": true
+        },
+        "workprojectmemos": {
+          "enabled": true,
+          "view": true,
+          "create": true,
+          "edit": true,
+          "delete": true,
+          "inactivate": true,
+          "activate": true,
+          "stats": true
+        },
+        "workprojecteffortlogs": {
+          "enabled": true,
+          "view": true,
+          "create": false,
+          "edit": true,
+          "delete": true,
+          "inactivate": true,
+          "stats": true
+        }
+      }
+    },
+    "emptransactions": {
+      "enabled": true,
+      "submenus": {
+        "workabsences": {
+          "enabled": true,
+          "view": true,
+          "create": true,
+          "edit": true,
+          "delete": true,
+          "inactivate": true,
+          "activate": true,
+          "stats": true,
+          "respond": true
+        },
+        "workemployeetransactionsleaves": {
+          "enabled": true,
+          "view": true,
+          "create": true,
+          "edit": true,
+          "delete": true,
+          "export": true,
+          "import": true,
+          "activate": true,
+          "viewcalendar": true,
+          "stats": true
+        },
+        "employeetransactionsworkattendance": {
+          "enabled": true,
+          "view": true,
+          "create": true,
+          "edit": true,
+          "delete": true,
+          "inactivate": true,
+          "activate": true,
+          "stats": true
+        },
+        "employeetransactionseffortlogs": {
+          "enabled": true,
+          "view": true,
+          "create": true,
+          "edit": true,
+          "delete": true,
+          "inactivate": true,
+          "activate": true,
+          "stats": true
+        },
+        "employeetransactionsworkpayrolls": {
+          "enabled": true,
+          "view": true,
+          "create": true,
+          "edit": true,
+          "delete": true,
+          "inactivate": true,
+          "activate": true,
+          "stats": true
+        },
+        "employeetransactionsworkskills": {
+          "enabled": true,
+          "view": true,
+          "create": true,
+          "edit": true,
+          "delete": true,
+          "inactivate": true,
+          "activate": true,
+          "stats": true
+        },
+        "employeetransactionsworkappraisals": {
+          "enabled": true,
+          "view": true,
+          "create": true,
+          "edit": true,
+          "delete": true,
+          "inactivate": true,
+          "activate": true,
+          "stats": true
+        },
+        "workemployeetransactionequipmentassignments": {
+          "enabled": true,
+          "view": true,
+          "create": true,
+          "edit": true,
+          "delete": true,
+          "inactivate": true,
+          "activate": true,
+          "stats": true
+        },
+        "workemployeetransactionideas": {
+          "enabled": true,
+          "view": true,
+          "create": true,
+          "edit": true,
+          "delete": true,
+          "inactivate": true,
+          "activate": true,
+          "stats": true
+        }
+      }
+    },
+    "workresources": {
+      "enabled": true,
+      "submenus": {
+        "workemployees": {
+          "enabled": true,
+          "view": true,
+          "create": true,
+          "edit": true,
+          "delete": true,
+          "inactivate": true,
+          "activate": true,
+          "stats": true
+        },
+        "employeeworkprojects": {
+          "enabled": true,
+          "view": true,
+          "create": true,
+          "edit": true,
+          "delete": true,
+          "inactivate": true,
+          "activate": true,
+          "stats": true
+        },
+        "employeeworktasks": {
+          "enabled": true,
+          "view": true,
+          "create": true,
+          "edit": true,
+          "delete": true,
+          "inactivate": true,
+          "activate": true,
+          "stats": true
+        },
+        "employeeworktickets": {
+          "enabled": true,
+          "view": true,
+          "create": true,
+          "edit": true,
+          "delete": true,
+          "inactivate": true,
+          "activate": true,
+          "stats": true
+        },
+        "employeeactivities": {
+          "enabled": true,
+          "view": true,
+          "create": true,
+          "edit": true,
+          "delete": true,
+          "inactivate": true,
+          "activate": true,
+          "stats": true
+        },
+        "workemployeepayprofiles": {
+          "enabled": true,
+          "view": true,
+          "create": true,
+          "edit": true,
+          "delete": true,
+          "export": true,
+          "import": true,
+          "activate": true,
+          "viewcalendar": true,
+          "stats": true
+        },
+        "employeeeffortlogs": {
+          "enabled": true,
+          "view": true,
+          "create": true,
+          "edit": true,
+          "delete": true,
+          "inactivate": true,
+          "activate": true,
+          "stats": true
+        },
+        "employeesworkleaves": {
+          "enabled": true,
+          "view": true,
+          "create": true,
+          "edit": true,
+          "delete": true,
+          "inactivate": true,
+          "activate": true,
+          "stats": true
+        },
+        "workattendancesettings": {
+          "enabled": true,
+          "view": true,
+          "create": true,
+          "edit": true,
+          "delete": true,
+          "inactivate": true,
+          "activate": true,
+          "stats": true
+        },
+        "employeeworkskills": {
+          "enabled": true,
+          "view": true,
+          "create": true,
+          "edit": true,
+          "delete": true,
+          "inactivate": true,
+          "activate": true,
+          "stats": true
+        },
+        "employeeworkpayslips": {
+          "enabled": true,
+          "view": true,
+          "create": true,
+          "edit": true,
+          "delete": true,
+          "inactivate": true,
+          "activate": true,
+          "stats": true
+        },
+        "employeeworkappraisals": {
+          "enabled": true,
+          "view": true,
+          "create": true,
+          "edit": true,
+          "delete": true,
+          "inactivate": true,
+          "activate": true,
+          "stats": true
+        },
+        "employeeworkequipmentassignments": {
+          "enabled": true,
+          "view": true,
+          "create": true,
+          "edit": true,
+          "delete": true,
+          "inactivate": true,
+          "activate": true,
+          "stats": true
+        },
+        "employeeworkideas": {
+          "enabled": true,
+          "view": true,
+          "create": true,
+          "edit": true,
+          "delete": true,
+          "inactivate": true,
+          "activate": true,
+          "stats": true
+        },
+        "employeeworkabsences": {
+          "enabled": true,
+          "view": true,
+          "create": true,
+          "edit": true,
+          "delete": true,
+          "inactivate": true,
+          "activate": true,
+          "stats": true,
+          "response": true
+        },
+        "workabsencesettings": {
+          "enabled": true,
+          "view": true,
+          "create": true,
+          "edit": true,
+          "delete": true,
+          "inactivate": true,
+          "activate": true,
+          "stats": true
+        }
+      }
+    },
+    "skillsandappraisals": {
+      "enabled": false,
+      "submenus": {
+        "skillsandappraisalsworkapraisals": {
+          "enabled": true,
+          "view": true,
+          "create": true,
+          "edit": true,
+          "delete": true,
+          "inactivate": true,
+          "activate": true,
+          "stats": true
+        },
+        "skillsandappraisalsworkapraisalbases": {
+          "enabled": true,
+          "view": true,
+          "create": true,
+          "edit": true,
+          "delete": true,
+          "export": true,
+          "import": true,
+          "activate": true,
+          "viewcalendar": true,
+          "stats": true
+        },
+        "skillsandappraisalsworkskills": {
+          "enabled": true,
+          "view": true,
+          "create": true,
+          "edit": true,
+          "delete": true,
+          "inactivate": true,
+          "activate": true,
+          "stats": true
+        },
+        "skillsandappraisalsworkskillsbases": {
+          "enabled": true,
+          "view": true,
+          "create": true,
+          "edit": true,
+          "delete": true,
+          "inactivate": true,
+          "activate": true,
+          "stats": true
+        }
+      }
+    },
+    "sponsorfeatures": {
+      "enabled": true,
+      "submenus": {
+        "sponsorcampaigns": {
+          "enabled": true,
+          "view": true,
+          "create": true,
+          "edit": true,
+          "delete": true,
+          "inactivate": true,
+          "activate": true,
+          "stats": true
+        },
+        "sponsors": {
+          "enabled": true,
+          "view": true,
+          "create": true,
+          "edit": true,
+          "delete": true,
+          "inactivate": true,
+          "activate": true,
+          "stats": true
+        },
+        "sponsorbanners": {
+          "enabled": true,
+          "view": true,
+          "create": true,
+          "edit": true,
+          "delete": true,
+          "inactivate": true,
+          "activate": true,
+          "stats": true
+        },
+        "sponsorbillsandpayments": {
+          "enabled": true,
+          "view": true,
+          "create": true,
+          "edit": true,
+          "delete": true,
+          "inactivate": true,
+          "activate": true,
+          "stats": true
+        },
+        "sponsorcontracts": {
+          "enabled": true,
+          "view": true,
+          "create": true,
+          "edit": true,
+          "delete": true,
+          "inactivate": true,
+          "activate": true,
+          "stats": true
+        }
+      }
+    },
+    "finance": {
+      "enabled": true,
+      "submenus": {
+        "f-journalentries": {
+          "enabled": true,
+          "view": true,
+          "create": true,
+          "edit": true,
+          "delete": true,
+          "export": true,
+          "preview": true,
+          "import": true,
+          "inactivate": true,
+          "activate": true,
+          "stats": true
+        },
+        "f-reports": {
+          "enabled": true,
+          "view": true,
+          "create": true,
+          "edit": true,
+          "delete": true,
+          "export": true,
+          "preview": true,
+          "import": true,
+          "inactivate": true,
+          "activate": true,
+          "stats": true,
+          "download": true
+        }
+      }
+    },
+    "crmaccounts": {
+      "enabled": true,
+      "submenus": {
+        "crmaccounts": {
+          "enabled": true,
+          "view": true,
+          "create": true,
+          "edit": true,
+          "delete": true,
+          "export": true,
+          "preview": true,
+          "import": true,
+          "inactivate": true,
+          "activate": true,
+          "stats": true
+        },
+        "crmaccountactivities": {
+          "enabled": true,
+          "view": true,
+          "create": true,
+          "edit": true,
+          "delete": true,
+          "export": true,
+          "preview": true,
+          "import": true,
+          "inactivate": true,
+          "activate": true,
+          "stats": true,
+          "download": true
+        },
+        "crmaccountopportunities": {
+          "enabled": true,
+          "view": true,
+          "create": true,
+          "edit": true,
+          "delete": true,
+          "export": true,
+          "preview": true,
+          "import": true,
+          "inactivate": true,
+          "activate": true,
+          "stats": true,
+          "download": true
+        }
+      }
+    },
+    "crmopportunities": {
+      "enabled": true,
+      "submenus": {
+        "crmopportunities": {
+          "enabled": true,
+          "view": true,
+          "create": true,
+          "edit": true,
+          "delete": true,
+          "export": true,
+          "preview": true,
+          "import": true,
+          "inactivate": true,
+          "activate": true,
+          "stats": true
+        },
+        "crmopportunityactivities": {
+          "enabled": true,
+          "view": true,
+          "create": true,
+          "edit": true,
+          "delete": true,
+          "export": true,
+          "preview": true,
+          "import": true,
+          "inactivate": true,
+          "activate": true,
+          "stats": true,
+          "download": true
+        }
+      }
+    },
+    "crmquotes": {
+      "enabled": true,
+      "submenus": {
+        "crmquotes": {
+          "enabled": true,
+          "view": true,
+          "create": true,
+          "edit": true,
+          "delete": true,
+          "export": true,
+          "preview": true,
+          "import": true,
+          "inactivate": true,
+          "activate": true,
+          "stats": true
+        },
+        "crmquoteactivities": {
+          "enabled": true,
+          "view": true,
+          "create": true,
+          "edit": true,
+          "delete": true,
+          "export": true,
+          "preview": true,
+          "import": true,
+          "inactivate": true,
+          "activate": true,
+          "stats": true,
+          "download": true
+        }
+      }
+    },
+    "crmsalesreps": {
+      "enabled": true,
+      "submenus": {
+        "crmsalesreps": {
+          "enabled": true,
+          "view": true,
+          "create": true,
+          "edit": true,
+          "delete": true,
+          "export": true,
+          "preview": true,
+          "import": true,
+          "inactivate": true,
+          "activate": true,
+          "stats": true
+        },
+        "crmsalesrepactivities": {
+          "enabled": true,
+          "view": true,
+          "create": true,
+          "edit": true,
+          "delete": true,
+          "export": true,
+          "preview": true,
+          "import": true,
+          "inactivate": true,
+          "activate": true,
+          "stats": true,
+          "download": true
+        },
+        "crmsalesrepquotes": {
+          "enabled": true,
+          "view": true,
+          "create": true,
+          "edit": true,
+          "delete": true,
+          "export": true,
+          "preview": true,
+          "import": true,
+          "inactivate": true,
+          "activate": true,
+          "stats": true
+        },
+        "crmsalesrepaccounts": {
+          "enabled": true,
+          "view": true,
+          "create": true,
+          "edit": true,
+          "delete": true,
+          "export": true,
+          "preview": true,
+          "import": true,
+          "inactivate": true,
+          "activate": true,
+          "stats": true
+        },
+        "crmsalesrepopportunities": {
+          "enabled": true,
+          "view": true,
+          "create": true,
+          "edit": true,
+          "delete": true,
+          "export": true,
+          "preview": true,
+          "import": true,
+          "inactivate": true,
+          "activate": true,
+          "stats": true
+        }
+      }
+    }
+  }
+}

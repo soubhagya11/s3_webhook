@@ -1,0 +1,25 @@
+@mixin navbar-colors($color, $link-color) {
+    color: $link-color;
+    background-color: $color !important;
+    @include shadow-navbar-color($color);
+
+    .dropdown-item:hover,
+    .dropdown-item:focus{
+    //   @include shadow-small-color($color);
+      background-color: $color;
+      color: $link-color;
+    }
+
+    .navbar-toggler{
+        .navbar-toggler-icon{
+            background-color: $link-color;
+        }
+    }
+}
+
+@mixin sidebar-background-color($background-color, $font-color){
+    .sidebar-background:after{
+        background: $background-color;
+        // opacity: .93;
+    }
+}

@@ -1,0 +1,23 @@
+{
+	"_id" : 12,
+	"buildType" : "Demo",
+	"expDate" : "12",
+	"appId" : "5vgvggv555",
+	"createdBy" : "admin@srisys.com",
+	"createdAt" : "2018-11-20T00:00:00.000Z",
+	"updatedBy" : "admin@srisys.com",
+	"updatedAt" : "2018-11-20T00:00:00.000Z",
+	"buildVersion" : "359c2ad0-ace7-11e8-a110-fb8567154aec",
+	"child" : [
+		{
+			"_id" : "5b88e0478415da0b773106dd",
+			"enterpriseName" : "Cincinnati Zoo",
+			"enterpriseId" : 3
+		}
+	],
+	"parent" : {
+		"enterpriseId" : 3,
+		"enterpriseName" : "Cincinnati Zoo"
+	},
+	"__v" : 0
+}
